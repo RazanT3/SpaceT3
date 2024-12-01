@@ -1,0 +1,1441 @@
+{
+  "center": 10.0,
+  "parts": [
+    {
+      "n": "Engine Titan",
+      "p": {
+        "x": 0.0,
+        "y": -11.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.5,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false,
+        "heat_on__for_creative_use": false,
+        "gimbal_on": true
+      }
+    },
+    {
+      "n": "Landing Leg Big",
+      "p": {
+        "x": 1.0,
+        "y": -14.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 1.0,
+        "state_target": 1.0
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      }
+    },
+    {
+      "n": "Landing Leg Big",
+      "p": {
+        "x": -1.0,
+        "y": -14.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 1.0,
+        "state_target": 1.0
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      }
+    },
+    {
+      "n": "Landing Leg",
+      "p": {
+        "x": 0.5,
+        "y": -15.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 1.0,
+        "state_target": 1.0
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      }
+    },
+    {
+      "n": "Landing Leg",
+      "p": {
+        "x": -0.5,
+        "y": -15.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": -1.0,
+        "z": -270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 1.0,
+        "state_target": 1.0
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 1.5,
+        "y": -13.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": -1.5,
+        "y": -13.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 0.0,
+        "y": 5.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      }
+    },
+    {
+      "n": "Parachute Side",
+      "p": {
+        "x": 1.0,
+        "y": 5.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "deploy_state": 0.0,
+        "animation_state": 0.0
+      }
+    },
+    {
+      "n": "Parachute Side",
+      "p": {
+        "x": 1.0,
+        "y": 5.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "deploy_state": 0.0,
+        "animation_state": 0.0
+      }
+    },
+    {
+      "n": "Parachute Side",
+      "p": {
+        "x": 1.0,
+        "y": 5.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "deploy_state": 0.0,
+        "animation_state": 0.0
+      }
+    },
+    {
+      "n": "Parachute Side",
+      "p": {
+        "x": -1.0,
+        "y": 5.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "deploy_state": 0.0,
+        "animation_state": 0.0
+      }
+    },
+    {
+      "n": "Parachute Side",
+      "p": {
+        "x": -1.0,
+        "y": 5.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "deploy_state": 0.0,
+        "animation_state": 0.0
+      }
+    },
+    {
+      "n": "Parachute Side",
+      "p": {
+        "x": -1.0,
+        "y": 5.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "deploy_state": 0.0,
+        "animation_state": 0.0
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 0.0,
+        "y": 5.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 0.0,
+        "y": 5.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 1.5,
+        "y": 5.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": -1.5,
+        "y": 5.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 0.0,
+        "y": -4.999999
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 4.0,
+        "width_a": 4.0,
+        "width_b": 4.0,
+        "height": 8.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Color_Gray",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 0.0,
+        "y": -14.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 3.0,
+        "width_a": 3.0,
+        "width_b": 3.0,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Color_Black",
+        "shape_tex": "Rivets"
+      }
+    },
+    {
+      "n": "Engine Kolibri",
+      "p": {
+        "x": -1.0,
+        "y": -14.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.5,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false,
+        "heat_on__for_creative_use": false,
+        "gimbal_on": true
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 0.0,
+        "y": -16.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 4.0,
+        "width_a": 4.0,
+        "width_b": 4.0,
+        "height": 3.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Color_Black",
+        "shape_tex": "Half Rivets"
+      }
+    },
+    {
+      "n": "Engine Kolibri",
+      "p": {
+        "x": 1.0,
+        "y": -14.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.5,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false,
+        "heat_on__for_creative_use": false,
+        "gimbal_on": true
+      }
+    },
+    {
+      "n": "Heat Shield",
+      "p": {
+        "x": 0.0,
+        "y": 7.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 180.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 4.0,
+        "width": 4.0,
+        "shield_temp": "-Infinity"
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      }
+    },
+    {
+      "n": "Fairing",
+      "p": {
+        "x": 0.0,
+        "y": 7.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 4.0,
+        "width_a": 3.5999999046325684,
+        "width_b": 4.0,
+        "height": 1.0,
+        "force_percent": 0.5
+      },
+      "B": {
+        "occupied_a": true,
+        "detach_edge": true,
+        "adapt_to_tank": true
+      },
+      "T": {
+        "fragment": "",
+        "color_tex": "Color_White",
+        "shape_tex": "Flat Smooth 4"
+      }
+    },
+    {
+      "n": "Fairing",
+      "p": {
+        "x": 0.0,
+        "y": 8.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 4.0,
+        "width_a": 4.0,
+        "width_b": 4.0,
+        "height": 3.0,
+        "force_percent": 0.5
+      },
+      "B": {
+        "occupied_a": true,
+        "detach_edge": true,
+        "adapt_to_tank": true
+      },
+      "T": {
+        "fragment": "",
+        "color_tex": "Color_White",
+        "shape_tex": "Flat Smooth 4"
+      }
+    },
+    {
+      "n": "Fairing Cone Round",
+      "p": {
+        "x": 0.0,
+        "y": 11.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "force_percent": 0.5,
+        "width_original": 4.0,
+        "width": 4.0
+      },
+      "B": {
+        "detach_edge": true,
+        "adapt_to_tank": false
+      },
+      "T": {
+        "fragment": "",
+        "color_tex": "_",
+        "shade_tex": "Flat Smooth 4"
+      }
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": 1.75,
+        "y": 9.400002
+      },
+      "o": {
+        "x": 0.8,
+        "y": 0.3,
+        "z": 344.999969
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 1.0,
+        "y": 9.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": -1.0,
+        "y": 9.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Solar Array 2",
+      "p": {
+        "x": -1.75,
+        "y": 9.400002
+      },
+      "o": {
+        "x": -0.8,
+        "y": 0.3,
+        "z": 15.0000105
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      }
+    },
+    {
+      "n": "Separator",
+      "p": {
+        "x": 0.0,
+        "y": 10.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 4.0,
+        "width_b": 4.0,
+        "height": 0.37000083923339844,
+        "height_max": 5.0,
+        "force_percent": 0.5
+      },
+      "T": {
+        "color_tex": "Color_White"
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 0.0,
+        "y": 11.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 4.0,
+        "width_a": 4.0,
+        "width_b": 3.0,
+        "height": 1.0,
+        "fuel_percent": 0.5
+      },
+      "T": {
+        "color_tex": "Color_White",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 1.5,
+        "y": 12.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 180.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Landing Leg",
+      "p": {
+        "x": -0.5,
+        "y": 12.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      }
+    },
+    {
+      "n": "Landing Leg",
+      "p": {
+        "x": 0.5,
+        "y": 12.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state": 0.0,
+        "state_target": 0.0
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 0.0,
+        "y": 12.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 3.0,
+        "width_a": 3.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 0.5
+      },
+      "T": {
+        "color_tex": "Color_White",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Separator",
+      "p": {
+        "x": 0.0,
+        "y": 13.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0,
+        "width_b": 2.0,
+        "height": 0.0,
+        "height_max": 4.0,
+        "force_percent": 0.5
+      },
+      "T": {
+        "color_tex": ""
+      }
+    },
+    {
+      "n": "Parachute Side",
+      "p": {
+        "x": 1.0,
+        "y": 14.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "deploy_state": 0.0,
+        "animation_state": 0.0
+      }
+    },
+    {
+      "n": "Parachute Side",
+      "p": {
+        "x": 1.0,
+        "y": 14.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "deploy_state": 0.0,
+        "animation_state": 0.0
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 0.0,
+        "y": 14.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 0.95,
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      }
+    },
+    {
+      "n": "Parachute Side",
+      "p": {
+        "x": 0.0,
+        "y": 14.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "deploy_state": 0.0,
+        "animation_state": 0.0
+      }
+    },
+    {
+      "n": "Parachute Side",
+      "p": {
+        "x": 0.0,
+        "y": 14.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "deploy_state": 0.0,
+        "animation_state": 0.0
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 0.0,
+        "y": 12.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 2.0
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": -1.5,
+        "y": 12.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 180.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Heat Shield",
+      "p": {
+        "x": 0.0,
+        "y": 11.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 4.0,
+        "width": 4.0,
+        "shield_temp": "-Infinity"
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      }
+    },
+    {
+      "n": "Engine Valiant",
+      "p": {
+        "x": 0.0,
+        "y": 10.4000015
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.4,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false,
+        "heat_on__for_creative_use": false,
+        "gimbal_on": true
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 0.0,
+        "y": 8.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 3.0,
+        "width_a": 3.0,
+        "width_b": 4.0,
+        "height": 2.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 0.0,
+        "y": 10.4000015
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 0.1,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Heat Shield",
+      "p": {
+        "x": 2.0,
+        "y": 4.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 0.01,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 6.0,
+        "width": 6.0,
+        "shield_temp": "-Infinity"
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      }
+    },
+    {
+      "n": "Heat Shield",
+      "p": {
+        "x": 2.0,
+        "y": -2.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 0.01,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 6.0,
+        "width": 6.0,
+        "shield_temp": "-Infinity"
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      }
+    },
+    {
+      "n": "Heat Shield",
+      "p": {
+        "x": 2.0,
+        "y": -8.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 0.01,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 6.0,
+        "width": 6.0,
+        "shield_temp": "-Infinity"
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      }
+    },
+    {
+      "n": "Heat Shield",
+      "p": {
+        "x": 2.0,
+        "y": -13.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 0.01,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 6.0,
+        "width": 6.0,
+        "shield_temp": "-Infinity"
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 0.0,
+        "y": -13.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 4.0,
+        "width_a": 4.0,
+        "width_b": 4.0,
+        "height": 8.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Color_Gray",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 0.0,
+        "y": -11.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 4.0,
+        "width_a": 4.0,
+        "width_b": 4.0,
+        "height": 2.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Color_Gray",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 0.0,
+        "y": 3.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 4.0,
+        "width_a": 4.0,
+        "width_b": 4.0,
+        "height": 4.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Color_Gray",
+        "shape_tex": "Rivets"
+      }
+    },
+    {
+      "n": "Fairing",
+      "p": {
+        "x": 1.14999962,
+        "y": -10.0
+      },
+      "o": {
+        "x": -0.7,
+        "y": 1.0,
+        "z": -1.00179122E-05
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 5.0,
+        "force_percent": 0.5
+      },
+      "B": {
+        "occupied_a": false,
+        "detach_edge": true,
+        "adapt_to_tank": true
+      },
+      "T": {
+        "fragment": "left",
+        "color_tex": "Color_Black",
+        "shape_tex": "Flat Smooth 4"
+      }
+    },
+    {
+      "n": "Fairing",
+      "p": {
+        "x": 0.8000002,
+        "y": -6.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": -1.00179122E-05
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 5.0,
+        "force_percent": 0.5
+      },
+      "B": {
+        "occupied_a": false,
+        "detach_edge": true,
+        "adapt_to_tank": true
+      },
+      "T": {
+        "fragment": "left",
+        "color_tex": "Color_Black",
+        "shape_tex": "Flat Smooth 4"
+      }
+    },
+    {
+      "n": "Fairing",
+      "p": {
+        "x": 1.14999962,
+        "y": -2.0
+      },
+      "o": {
+        "x": -0.7,
+        "y": 1.0,
+        "z": -1.00179122E-05
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 5.0,
+        "force_percent": 0.5
+      },
+      "B": {
+        "occupied_a": false,
+        "detach_edge": true,
+        "adapt_to_tank": true
+      },
+      "T": {
+        "fragment": "left",
+        "color_tex": "Color_Black",
+        "shape_tex": "Flat Smooth 4"
+      }
+    },
+    {
+      "n": "Fairing",
+      "p": {
+        "x": 0.8000002,
+        "y": -16.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": -1.00179122E-05
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 5.0,
+        "force_percent": 0.5
+      },
+      "B": {
+        "occupied_a": false,
+        "detach_edge": true,
+        "adapt_to_tank": true
+      },
+      "T": {
+        "fragment": "left",
+        "color_tex": "Color_Black",
+        "shape_tex": "Flat Smooth 4"
+      }
+    },
+    {
+      "n": "Fairing",
+      "p": {
+        "x": 0.8000002,
+        "y": -14.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": -1.00179122E-05
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 5.0,
+        "force_percent": 0.5
+      },
+      "B": {
+        "occupied_a": false,
+        "detach_edge": true,
+        "adapt_to_tank": true
+      },
+      "T": {
+        "fragment": "left",
+        "color_tex": "Color_Black",
+        "shape_tex": "Flat Smooth 4"
+      }
+    },
+    {
+      "n": "Fairing",
+      "p": {
+        "x": 0.8000002,
+        "y": 2.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": -1.00179122E-05
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 4.9000000953674316,
+        "force_percent": 0.5
+      },
+      "B": {
+        "occupied_a": false,
+        "detach_edge": true,
+        "adapt_to_tank": true
+      },
+      "T": {
+        "fragment": "left",
+        "color_tex": "Color_Black",
+        "shape_tex": "Flat Smooth 4"
+      }
+    }
+  ],
+  "stages": [
+    {
+      "stageId": 1,
+      "partIndexes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "stageId": 2,
+      "partIndexes": [
+        26,
+        33
+      ]
+    },
+    {
+      "stageId": 3,
+      "partIndexes": [
+        20,
+        22,
+        0,
+        16
+      ]
+    },
+    {
+      "stageId": 4,
+      "partIndexes": [
+        10,
+        9,
+        8,
+        13,
+        12,
+        11
+      ]
+    },
+    {
+      "stageId": 5,
+      "partIndexes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "stageId": 6,
+      "partIndexes": [
+        30,
+        27,
+        46
+      ]
+    },
+    {
+      "stageId": 7,
+      "partIndexes": [
+        38,
+        41,
+        39,
+        42
+      ]
+    },
+    {
+      "stageId": 8,
+      "partIndexes": [
+        35,
+        34
+      ]
+    }
+  ],
+  "rotation": 0.0,
+  "offset": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "interiorView": false
+}
