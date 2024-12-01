@@ -6,4 +6,4 @@ My attempt at recreating Space Shuttle  without bp editing knowledge, it is doom
 
 Image:
 
-![](../assets/470bf1e8faf405fda76945afb9a95d6ff0f71aec.png)
+![loading-ag-110](/home/razant3/Pictures/Desktop%20Screenshots/Screenshot_20241201_122712.png)
