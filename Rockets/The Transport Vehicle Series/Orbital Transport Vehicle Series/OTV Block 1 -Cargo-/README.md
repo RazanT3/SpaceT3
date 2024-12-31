@@ -9,7 +9,7 @@ Modded - https://sharing.spaceflightsimulator.app/rocket/YlxINsd4Ee-LAdPseAeipw
 
 ###### Image:
 
-![Infographic](../../../../assets/Orbital\ Transport\ Vehicle\ Cargo\ Infographic.png)
+![Infographic](../../../../assets/Orbital-Transport-Vehicle-Cargo-Infographic.png)
 ![Stand by](../../../../assets/Screenshot_20241213_234130.png)
 ![Ascent](../../../../assets/Screenshot_20241228_075537.png)
 ![This is OTV](../../../../assets/Screenshot_20241229_074059.png)
