@@ -1,0 +1,303 @@
+{
+  "center": 10.0,
+  "parts": [
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 9.6,
+        "y": 0.0875
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 0.17499999701976776,
+        "width_a": 0.17499999701976776,
+        "width_b": 0.17499999701976776,
+        "height": 0.8,
+        "fuel_percent": 0.0
+      },
+      "T": {
+        "color_tex": "Color_White",
+        "shape_tex": "_"
+      },
+      "burns": {
+        "angle": -90.58417,
+        "intensity": 3.0,
+        "x": -0.0509633645,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 10.0,
+        "y": 1.5
+      },
+      "o": {
+        "x": -0.8,
+        "y": 0.1,
+        "z": 180.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 0.31499999761581421
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      },
+      "burns": {
+        "angle": -90.58417,
+        "intensity": 3.0,
+        "x": -0.0509633645,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Fairing",
+      "p": {
+        "x": 9.925,
+        "y": 0.975
+      },
+      "o": {
+        "x": 0.375,
+        "y": -0.1,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 2.0,
+        "width_b": 2.0,
+        "height": 1.5,
+        "force_percent": 0.5
+      },
+      "B": {
+        "occupied_a": false,
+        "detach_edge": true,
+        "adapt_to_tank": true
+      },
+      "T": {
+        "fragment": "both",
+        "color_tex": "Color_White",
+        "shape_tex": "Flat Smooth 4"
+      },
+      "burns": {
+        "angle": -90.58417,
+        "intensity": 3.0,
+        "x": -0.0509633645,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 10.0,
+        "y": 0.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": -0.175,
+        "z": 180.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 0.64999997615814209
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      },
+      "burns": {
+        "angle": -90.58417,
+        "intensity": 3.0,
+        "x": -0.0509633645,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 10.4,
+        "y": 0.9125
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 0.17499999701976776,
+        "width_a": 0.17499999701976776,
+        "width_b": 0.17499999701976776,
+        "height": 0.34999999403953552,
+        "fuel_percent": 0.0
+      },
+      "T": {
+        "color_tex": "Color_White",
+        "shape_tex": "_"
+      },
+      "burns": {
+        "angle": -90.58417,
+        "intensity": 3.0,
+        "x": -0.0509633645,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 9.6,
+        "y": 0.9125
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 0.17499999701976776,
+        "width_a": 0.17499999701976776,
+        "width_b": 0.17499999701976776,
+        "height": 0.34999999403953552,
+        "fuel_percent": 0.0
+      },
+      "T": {
+        "color_tex": "Color_White",
+        "shape_tex": "_"
+      },
+      "burns": {
+        "angle": -90.58417,
+        "intensity": 3.0,
+        "x": -0.0509633645,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 9.5875,
+        "y": 0.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 0.17499999701976776,
+        "width_a": 0.17499999701976776,
+        "width_b": 0.17499999701976776,
+        "height": 1.0,
+        "fuel_percent": 0.0
+      },
+      "T": {
+        "color_tex": "Color_White",
+        "shape_tex": "_"
+      },
+      "burns": {
+        "angle": -90.58417,
+        "intensity": 3.0,
+        "x": -0.0509633645,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 10.4125,
+        "y": 0.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 0.17499999701976776,
+        "width_a": 0.17499999701976776,
+        "width_b": 0.17499999701976776,
+        "height": 1.0,
+        "fuel_percent": 0.0
+      },
+      "T": {
+        "color_tex": "Color_White",
+        "shape_tex": "_"
+      },
+      "burns": {
+        "angle": -90.58417,
+        "intensity": 3.0,
+        "x": -0.0509633645,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Strut",
+      "p": {
+        "x": 9.925,
+        "y": 0.45
+      },
+      "o": {
+        "x": 1.0,
+        "y": 0.5,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 0.15000000596046448
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      }
+    },
+    {
+      "n": "Wheel Medium",
+      "p": {
+        "x": 10.0,
+        "y": 0.9
+      },
+      "o": {
+        "x": 0.73,
+        "y": 0.73,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "wheel_on": false
+      }
+    }
+  ],
+  "stages": [],
+  "rotation": 0.0,
+  "offset": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "interiorView": false
+}
