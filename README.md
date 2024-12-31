@@ -1,5 +1,9 @@
-# SpaceT3-Blueprints
+# Orbital Exploration Agency by SpaceT3
 
-<img src="media/SpaceT3.png" width="128" height="128" alt="SpaceT3" align="right" />
+<img src="assets/SpaceT3.png" width="128" height="128" alt="SpaceT3" align="right" />
 
-This is where you can get my creation for Spaceflight SImulator! Still work in progress, tho... Some of you probably wants to download ***Big Transport Vehicle*** or ***Orbital Transport Vehicle***, you can just click it and see the download page.
+This is where you can get my creation in Spaceflight SImulator! 
+
+![OEA](assets/OEA-Title.png)
+
+This page is still not complete, so there maybe some blueprints you can't find.
