@@ -1,0 +1,227 @@
+{
+  "center": 10.0,
+  "parts": [
+    {
+      "n": "Wheel Medium",
+      "p": {
+        "x": -0.5,
+        "y": 0.0999984741
+      },
+      "o": {
+        "x": 0.9,
+        "y": 0.9,
+        "z": -1.00179122E-05
+      },
+      "t": "-Infinity",
+      "B": {
+        "wheel_on": false
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 0.150001526,
+        "y": -1.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 0.3
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 0.100000381,
+        "y": 0.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 0.2,
+        "width_a": 0.20000000298023224,
+        "width_b": 0.20000000298023224,
+        "height": 0.3,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Color_Black",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 0.0,
+        "y": -1.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": -1.00179122E-05
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 0.2,
+        "width_a": 0.20000000298023224,
+        "width_b": 0.20000000298023224,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Color_Black",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": -1.0,
+        "y": -0.9000015
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 0.2,
+        "width_a": 0.20000000298023224,
+        "width_b": 0.20000000298023224,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Color_Black",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": -1.0,
+        "y": -1.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": -1.00179122E-05
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 0.2,
+        "width_a": 0.20000000298023224,
+        "width_b": 0.20000000298023224,
+        "height": 1.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Color_Black",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": -1.10000038,
+        "y": 0.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 0.2,
+        "width_a": 0.20000000298023224,
+        "width_b": 0.20000000298023224,
+        "height": 0.3,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Color_Black",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": -0.5,
+        "y": -0.400001526
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": -1.00179122E-05
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 0.25,
+        "width_a": 0.25,
+        "width_b": 0.25,
+        "height": 0.25,
+        "fuel_percent": 0.0
+      },
+      "T": {
+        "color_tex": "Color_Black",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Separator",
+      "p": {
+        "x": -0.5,
+        "y": 1.04999924
+      },
+      "o": {
+        "x": 1.0,
+        "y": -0.8,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 0.5,
+        "width_b": 0.25,
+        "height": 1.0000009536743164,
+        "height_max": 4.0,
+        "force_percent": 0.0
+      },
+      "T": {
+        "color_tex": "Color_Black"
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 0.6500015,
+        "y": -1.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 0.3
+      }
+    }
+  ],
+  "stages": [],
+  "rotation": 0.0,
+  "offset": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "interiorView": true
+}
