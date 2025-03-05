@@ -1,0 +1,104 @@
+{
+  "version": "1.5",
+  "BASE_DATA": {
+    "radius": 11450,
+    "gravity": 0.22,
+    "timewarpHeight": 3000,
+    "mapColor": {
+      "r": 0.375,
+      "g": 0.3805147,
+      "b": 0.3805147,
+      "a": 1
+    },
+		"significant":false,
+		"rotateCamera":true
+  },
+  "TERRAIN_DATA": {
+    "TERRAIN_TEXTURE_DATA": {
+      "planetTexture": "Vesta",
+      "planetTextureCutout": 0.999,
+      "surfaceTexture_A": "Dark_Dust",
+      "surfaceTextureSize_A": {
+        "x": 20,
+        "y": 8
+      },
+      "surfaceTexture_B": "Hard_Rocks",
+      "surfaceTextureSize_B": {
+        "x": 40,
+        "y": 16
+      },
+      "terrainTexture_C": "Soft_Rocks",
+      "terrainTextureSize_C": {
+        "x": 280,
+        "y": 145
+      },
+      "surfaceLayerSize": 50,
+      "minFade": 0,
+      "maxFade": 1,
+      "shadowIntensity": 5,
+      "shadowHeight": 5
+    },
+    "terrainFormulaDifficulties": {
+      "normal": [
+      "OUTPUT = AddHeightMap(test2.png, 71942, 2255.16)",
+	  "OUTPUT = AddHeightMap(cons.txt, 71942, 2415.16)",
+      "OUTPUT = AddHeightMap(Mountes.png, 28735, 530)",
+      "OUTPUT = AddHeightMap(Perlin, 45000, 30)",
+	  "OUTPUT = AddHeightMap(Craters, 16050, 100)"
+    ],
+      "hard": [
+      "OUTPUT = AddHeightMap(test2.png, 143884, 4510.32)",
+	  "OUTPUT = AddHeightMap(cons.txt, 143884, 4830.32)",
+      "OUTPUT = AddHeightMap(Mountes.png, 57470, 1060)",
+      "OUTPUT = AddHeightMap(Perlin, 90000, 60)",
+	  "OUTPUT = AddHeightMap(Craters, 32100, 200)"
+	  ],
+      "realistic": [
+      "OUTPUT = AddHeightMap(test2.png, 1438840, 44135)",
+	  "OUTPUT = AddHeightMap(cons.txt, 1438840, 52135)",
+      "OUTPUT = AddHeightMap(Mountes.png, 574700, 10600)",
+      "OUTPUT = AddHeightMap(Perlin, 900000, 600)",
+	  "OUTPUT = AddHeightMap(Craters, 321000, 2000)"
+	  ]
+    },
+    "textureFormula": [],
+    "verticeSize": 0.15,
+    "collider": true,
+    "rocks": {
+      "rockType": "Rock Square",
+      "rockDensity": 0.7,
+      "minSize": 0.25,
+      "maxSize": 0.8,
+      "powerCurve": 2.5,
+      "maxAngle": 30
+    }
+  },
+  "ORBIT_DATA": {
+    "parent": "Sun",
+    "semiMajorAxis": 17670500487.05,
+    "eccentricity": 0.089,
+    "argumentOfPeriapsis": 150,
+    "direction": 1,
+    "multiplierSOI": 1.5
+  },
+  "ACHIEVEMENT_DATA": {
+    "Landed": true,
+    "Takeoff": true,
+    "Atmosphere": false,
+    "Orbit": true,
+    "Crash": true
+  },
+  "LANDMARKS": [
+  {
+      "name": "Saturnalia Fossa",
+      "angle": 47,
+      "startAngle": 40,
+      "endAngle": 80
+    },
+	{
+      "name": "Vestalia Terra",
+      "angle": -10,
+      "startAngle": -40,
+      "endAngle": 30
+    }]
+}

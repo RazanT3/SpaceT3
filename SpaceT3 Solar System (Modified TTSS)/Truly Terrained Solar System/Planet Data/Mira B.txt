@@ -1,0 +1,140 @@
+{
+  "version": "1.5",
+  "BASE_DATA": {
+    "radius": 393227,
+    "gravity": 1499900,
+    "timewarpHeight": 5000000,
+    "mapColor": {
+      "r": 1,
+      "g": 0.97,
+      "b": 0.785,
+      "a": 1
+    }
+  },
+  "ATMOSPHERE_PHYSICS_DATA": {
+    "height": 64461991.53,
+    "heightDifficultyScale": {"hard": 2, "realistic": 20},
+    "density": 0.000005,
+    "curve": 13,
+    "curveScale": {},
+    "parachuteMultiplier": 1,
+    "upperAtmosphere": 0.5,
+    "shockwaveIntensity": 0.5,
+    "minHeatingVelocityMultiplier": 1
+  },
+  "ATMOSPHERE_VISUALS_DATA": {
+    "GRADIENT": {
+      "positionZ": 40000,
+      "height": 14723200000,
+      "texture": "Atmo_Sun"
+    },
+    "CLOUDS": {
+      "texture": "None",
+      "startHeight": 0,
+      "width": 0,
+      "height": 0,
+      "alpha": 0,
+      "velocity": 0
+    },
+ "FOG": {
+      "keys": []
+    }
+  },
+    "POST_PROCESSING": {
+    "keys": [
+	    {
+        "height": 59088881.92,
+        "shadowIntensity": -1,
+        "starIntensity": 0.05,
+        "hueShift": 0,
+        "saturation": 0.8,
+        "contrast": 3,
+        "red": 1.8,
+        "green": 1.6,
+        "blue": 1.25
+        },
+	    {
+        "height": 88633322.88,
+        "shadowIntensity": -0.3,
+        "starIntensity": 0.1,
+        "hueShift": 0,
+        "saturation": 0.9,
+        "contrast": 2,
+        "red": 2.6,
+        "green": 1.761,
+        "blue": 1.56
+        },
+	    {
+        "height": 118177763.8,
+        "shadowIntensity": 0.6,
+        "starIntensity": 0.2,
+        "hueShift": 0,
+        "saturation": 0.9,
+        "contrast": 1.7,
+        "red": 2.48,
+        "green": 1.915,
+        "blue": 1.71
+        },
+	    {
+        "height": 236355527.7,
+        "shadowIntensity": 1.15,
+        "starIntensity": 0.4,
+        "hueShift": 0,
+        "saturation": 1,
+        "contrast": 1.25,
+        "red": 1.89,
+        "green": 1.515,
+        "blue": 1.51
+        },
+	    {
+        "height": 354533291.5,
+        "shadowIntensity": 1.35,
+        "starIntensity": 0.6,
+        "hueShift": 0,
+        "saturation": 1,
+        "contrast": 1.2,
+        "red": 1,
+        "green": 1,
+        "blue": 1
+      },
+      {
+        "height": 472711055.4,
+        "shadowIntensity": 1.55,
+        "starIntensity": 0.8,
+        "hueShift": 0,
+        "saturation": 1,
+        "contrast": 1.2,
+        "red": 1,
+        "green": 1,
+        "blue": 1
+      },
+	   {
+		"height":590888819.2,
+		"shadowIntensity":1.75,
+		"starIntensity":1,
+		"hueShift":0,
+		"saturation":0.95,
+		"contrast":1.2,
+		"red":1,
+		"green":1,
+		"blue":1
+	   }
+    ]
+  },
+  "ORBIT_DATA": {
+    "parent": "Mira",
+    "semiMajorAxis": 548575391856.9,
+    "eccentricity": 0.16,
+    "argumentOfPeriapsis": 78,
+    "direction": 1,
+    "multiplierSOI": 0.5
+  },
+  "ACHIEVEMENT_DATA": {
+    "Landed": false,
+    "Takeoff": false,
+    "Atmosphere": false,
+    "Orbit": true,
+    "Crash": false
+  },
+  "LANDMARKS": []
+}

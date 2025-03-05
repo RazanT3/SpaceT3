@@ -1,0 +1,115 @@
+﻿{
+  "version": "1.5",
+  "BASE_DATA": {
+    "radius": 359660,
+    "gravity": 10.14,
+    "timewarpHeight": 15000,
+    "velocityArrowsHeight": 5000,
+    "mapColor": {
+      "r": 0.84,
+      "g": 0.8,
+      "b": 0.76,
+      "a": 1
+    }
+  },
+  "ATMOSPHERE_VISUALS_DATA": {
+    "GRADIENT": {
+      "positionZ": 0,
+      "height": 20000,
+      "texture": "Atmo_Europa"
+    },
+    "CLOUDS": {
+      "texture": "Earth_Clouds",
+      "startHeight": 24000,
+      "width": 3600,
+      "height": 18000,
+      "alpha": 0.1,
+      "velocity": 1
+    },
+    "FOG": {
+      "keys": []
+    }
+  },
+  "TERRAIN_DATA": {
+    "TERRAIN_TEXTURE_DATA": {
+      "planetTexture": "TRAPPIST-1g",
+      "planetTextureCutout": 1,
+      "surfaceTexture_A": "Ice",
+      "surfaceTextureSize_A": {
+        "x": -70,
+        "y": -25
+      },
+      "surfaceTexture_B": "Soft_Rocks",
+      "surfaceTextureSize_B": {
+        "x": 70,
+        "y": 25
+      },
+      "terrainTexture_C": "Limestone",
+      "terrainTextureSize_C": {
+        "x": -320,
+        "y": -200
+      },
+      "surfaceLayerSize": 200,
+      "minFade": 0,
+      "maxFade": 0.6,
+      "shadowIntensity": 5,
+      "shadowHeight": 15
+    },
+    "terrainFormulaDifficulties": {
+      "normal": [
+	    "CNS = AddHeightMap(test12.txt, 2259810.4, 1)",
+         "OUTPUT = AddHeightMap(CosCanyd1.png, 12554.5, 3306, null, CNS)",
+	    "CONS = AddHeightMap(cons.txt, 3682940, 1)",
+         "OUTPUT = AddHeightMap( Dunes.png,564952, 1000, null, CONS)",
+        "OUTPUT = AddHeightMap(Perlin,18957.8, 20)",
+        "OUTPUT = AddHeightMap(Perlin,2451.6, 5)",
+        "OUTPUT = AddHeightMap(Perlin,1319.2, 1)"
+      ],
+	  "hard": [
+	    "CNS = AddHeightMap(test12.txt, 4519620.8, 1)",
+         "OUTPUT = AddHeightMap(CosCanyd1.png, 25109, 6612, null, CNS)",
+	    "CONS = AddHeightMap(cons.txt, 3682940, 1)",
+         "OUTPUT = AddHeightMap( Dunes.png,564952, 1000, null, CONS)",
+        "OUTPUT = AddHeightMap(Perlin,18957.8, 20)",
+        "OUTPUT = AddHeightMap(Perlin,2451.6, 5)",
+        "OUTPUT = AddHeightMap(Perlin,1319.2, 1)"
+      ],
+	  "realistic": [
+	    "CNS = AddHeightMap(test12.txt, 45196208, 1)",
+         "OUTPUT = AddHeightMap(CosCanyd1.png, 251090, 66120, null, CNS)",
+	    "CONS = AddHeightMap(cons.txt, 3682940, 1)",
+         "OUTPUT = AddHeightMap( Dunes.png,564952, 1000, null, CONS)",
+        "OUTPUT = AddHeightMap(Perlin,18957.8, 20)",
+        "OUTPUT = AddHeightMap(Perlin,2451.6, 5)",
+        "OUTPUT = AddHeightMap(Perlin,1319.2, 1)"
+      ],
+    },
+    "textureFormula": [],
+    "verticeSize": 1,
+    "collider": true,
+    "flatZones": []
+  },
+  "ORBIT_DATA": {
+    "parent": "TRAPPIST-1",
+    "semiMajorAxis": 350283414,
+    "eccentricity": 0.002,
+    "argumentOfPeriapsis": 191.34,
+    "direction": 1,
+    "multiplierSOI": 2.5
+  },
+  "ACHIEVEMENT_DATA": {
+    "Landed": true,
+    "Takeoff": true,
+    "Atmosphere": true,
+    "Orbit": true,
+    "Crash": true
+  },
+  "LANDMARKS": [
+  {
+      "name": "Chasmata Regio",
+      "angle": 61,
+      "startAngle": 50,
+      "endAngle": 72
+    }
+	]
+}

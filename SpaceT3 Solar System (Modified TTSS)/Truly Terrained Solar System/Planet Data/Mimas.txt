@@ -1,0 +1,139 @@
+{
+  "version": "1.5",
+  "BASE_DATA": {
+    "radius": 9910,
+    "gravity": 0.064,
+    "timewarpHeight": 3000,
+    "mapColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5,
+      "a": 1
+    }
+  },
+  "TERRAIN_DATA": {
+    "TERRAIN_TEXTURE_DATA": {
+      "planetTexture": "Mimas",
+      "planetTextureCutout": 0.999,
+      "surfaceTexture_A": "Ice",
+      "surfaceTextureSize_A": {
+        "x": -70,
+        "y": -25
+      },
+      "surfaceTexture_B": "Soft_Rocks",
+      "surfaceTextureSize_B": {
+        "x": 70,
+        "y": 25
+      },
+      "terrainTexture_C": "Ice",
+      "terrainTextureSize_C": {
+        "x": 320,
+        "y": 200
+      },
+      "surfaceLayerSize": 60,
+      "minFade": 0,
+      "maxFade": 1,
+      "shadowIntensity": 4,
+      "shadowHeight": 5
+    },
+    "terrainFormulaDifficulties": {
+      "normal": [
+        "M1 = AddHeightMap(Mimas.txt, 62266.36, 1)",
+        "M = AddHeightMap(Gerschel_Plains.txt, 62266.36, -1)",
+		"OUTPUT = AddHeightMap(M_Crater.png, 7264.49, 400, null, M)",
+        "OUTPUT = AddHeightMap(Craters, 20754.45, 210, null, M1)",
+        "OUTPUT = AddHeightMap(Craters, 14000, 140, null, M1)",
+        "OUTPUT = AddHeightMap(Craters, 4447.35, 40)",
+        "OUTPUT = AddHeightMap(Perlin, 1911.6, 2.5)",
+        "OUTPUT = AddHeightMap(Perlin, 4011.6, 5)"
+      ],
+      "hard": [
+        "M1 = AddHeightMap(Mimas.txt, 124526.72, 1)",
+        "M = AddHeightMap(Gerschel_Plains.txt, 124526.72, 1)",
+		"OUTPUT = AddHeightMap(M_Crater.png, 14528.818, 800, null, M)",
+        "OUTPUT = AddHeightMap(Craters, 41508.9, 420, null, M1)",
+        "OUTPUT = AddHeightMap(Craters, 28000, 280, null, M1)",
+        "OUTPUT = AddHeightMap(Craters, 8894.7, 80)",
+        "OUTPUT = AddHeightMap(Perlin, 1911.6, 2.5)",
+        "OUTPUT = AddHeightMap(Perlin, 4011.6, 5)"
+      ],
+      "realistic": [
+        "M1 = AddHeightMap(Mimas.txt, 1245267.2, 1)",
+        "M = AddHeightMap(Gerschel_Plains.txt, 1245267.2, 1)",
+		"OUTPUT = AddHeightMap(M_Crater.png, 145288.18, 8000, null, M)",
+        "OUTPUT = AddHeightMap(cons.txt, 1245267.2, 7000, null, M1)",
+        "OUTPUT = AddHeightMap(Craters, 415089, 4200, null, M1)",
+        "OUTPUT = AddHeightMap(Craters, 280000, 2800, null, M1)",
+        "OUTPUT = AddHeightMap(Craters, 88947, 800)",
+        "OUTPUT = AddHeightMap(Perlin, 19116, 25)",
+        "OUTPUT = AddHeightMap(Perlin, 40116, 50)"
+      ]
+    },
+    "textureFormula": [],
+    "verticeSize": 0.3,
+    "collider": true,
+	"rocks":
+        {
+            "rockType":"Rock Square",
+            "rockDensity":0.75,
+            "minSize":0.2,
+            "maxSize":0.6,
+            "powerCurve":15,
+            "maxAngle": 1
+        }
+  },
+  "POST_PROCESSING": {
+    "keys": [
+      {
+        "height": 500,
+        "shadowIntensity": 1.4,
+        "starIntensity": 1,
+        "hueShift": 5,
+        "saturation": 1,
+        "contrast": 1.05,
+        "red": 1,
+        "green": 1,
+        "blue": 1
+      },
+      {
+        "height": 15000,
+        "shadowIntensity": 1.65,
+        "starIntensity": 1,
+        "hueShift": 5,
+        "saturation": 1,
+        "contrast": 1.025,
+        "red": 1,
+        "green": 1,
+        "blue": 1
+      }
+    ]
+  },
+  "ORBIT_DATA": {
+    "parent": "Saturn",
+    "semiMajorAxis": 7421560,
+    "smaDifficultyScale": {
+      "normal": 1,
+      "hard": 2.5,
+      "realistic": 25
+    },
+    "eccentricity": 0.02,
+    "argumentOfPeriapsis": 0,
+    "direction": 1,
+    "multiplierSOI": 12
+  },
+  "ACHIEVEMENT_DATA": {
+    "Landed": true,
+    "Takeoff": true,
+    "Atmosphere": false,
+    "Orbit": true,
+    "Crash": true
+  },
+  "LANDMARKS": [
+    {
+      "name": "Herschel Crater",
+      "angle": 20,
+      "startAngle": 1,
+      "endAngle": 41
+	  }
+    ]
+}

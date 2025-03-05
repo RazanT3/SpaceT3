@@ -1,0 +1,136 @@
+{
+  "version": "1.5",
+  "BASE_DATA": {
+    "radius": 30300,
+    "gravity": 0.28,
+    "timewarpHeight": 3250,
+    "mapColor": {
+      "r": 0.54,
+      "g": 0.49,
+      "b": 0.44,
+      "a": 1
+    }
+  },
+  "TERRAIN_DATA": {
+    "TERRAIN_TEXTURE_DATA": {
+      "planetTexture": "Charon",
+      "planetTextureCutout": 1,
+      "surfaceTexture_A": "Ice",
+      "surfaceTextureSize_A": {
+        "x": -70,
+        "y": -25
+      },
+      "surfaceTexture_B": "Soft_Rocks",
+      "surfaceTextureSize_B": {
+        "x": 70,
+        "y": 25
+      },
+      "terrainTexture_C": "Ice",
+      "terrainTextureSize_C": {
+        "x": -320,
+        "y": -200
+      },
+      "surfaceLayerSize": 150,
+      "minFade": 0,
+      "maxFade": 1,
+      "shadowIntensity": 5,
+      "shadowHeight": 15
+    },
+    "terrainFormulaDifficulties": {
+      "normal": [
+      "OUTPUT = AddHeightMap( Io,7500, 7.5)",
+      "M = AddHeightMap(test23.png, 190380, 1)",
+      "OUTPUT = AddHeightMap(Craters, 47595, 319, null, M)",
+      "OUTPUT = AddHeightMap(Craters, 10115, 85)",
+      "OUTPUT = AddHeightMap(Mountes.png, 190380, 1400)",
+      "M1 = AddHeightMap( test24.txt, 190380, 1)",
+      "OUTPUT = AddHeightMap( cosCanyd.png, 1057, 330, null, M1)"
+    ],
+      "hard": [
+      "OUTPUT = AddHeightMap( Io,1499, 15)",
+      "M = AddHeightMap(test23.png, 380760, 1)",
+      "OUTPUT = AddHeightMap(Craters, 95190, 638, null, M)",
+      "OUTPUT = AddHeightMap(cons.txt, 95190, 638, null, M)",
+      "OUTPUT = AddHeightMap(Craters, 20230, 170)",
+      "OUTPUT = AddHeightMap(Mountes.png, 380760, 2676.6)",
+      "M1 = AddHeightMap( test24.txt, 380760, 1)",
+      "OUTPUT = AddHeightMap( cosCanyd.png, 2114, 660, null, M1)"
+      ],
+      "realistic": [
+      "OUTPUT = AddHeightMap( Io,14990, 150)",
+      "M = AddHeightMap(test23.png, 3807600, 1)",
+      "OUTPUT = AddHeightMap(Craters, 951900, 6380, null, M)",
+      "OUTPUT = AddHeightMap(cons.txt, 951900, 6380, null, M)",
+      "OUTPUT = AddHeightMap(Craters, 202300, 1700)",
+      "OUTPUT = AddHeightMap(Mountes.png, 3807600, 26766)",
+	  "OUTPUT = AddHeightMap(cons.txt, 3807600, 24700)",
+      "M1 = AddHeightMap( test24.txt, 3807600, 1)",
+      "OUTPUT = AddHeightMap( cosCanyd.png, 21140, 6600, null, M1)"
+	  ]
+    },
+    "textureFormula": [],
+    "verticeSize": 0.5,
+    "collider": true,
+	"rocks":
+        {
+      "rockType": "Rock Square",
+      "rockDensity": 0.5,
+      "minSize": 0.3,
+      "maxSize": 0.7,
+      "powerCurve": 25,
+      "maxAngle": 40
+    }
+  },
+  "ORBIT_DATA": {
+    "parent": "Pluto",
+    "semiMajorAxis": 981400,
+    "eccentricity": 0,
+    "argumentOfPeriapsis": 0,
+    "direction": 1,
+    "multiplierSOI": 0.6125
+  },
+  "ACHIEVEMENT_DATA": {
+    "Landed": true,
+    "Takeoff": true,
+    "Atmosphere": false,
+    "Orbit": true,
+    "Crash": true
+  },
+  "LANDMARKS": [
+  {
+      "name": "Argo Chasma",
+      "angle": 41,
+      "startAngle": 14,
+      "endAngle": 44
+    },
+    {
+      "name": "Macross Chasma",
+      "angle": 218,
+      "startAngle": 217,
+      "endAngle": 219
+    },
+    {
+      "name": "Mandjet Chasma",
+      "angle": 208,
+      "startAngle": 207,
+      "endAngle": 209
+    },
+    {
+      "name": "Mordor Macula",
+      "angle": 83.5,
+      "startAngle": 63,
+      "endAngle": 104
+    },
+    {
+      "name": "Oz Terra",
+      "angle": 157.5,
+      "startAngle": 115,
+      "endAngle": 200
+    },
+    {
+      "name": "Vulcan Planum",
+      "angle": 298.5,
+      "startAngle": -135,
+      "endAngle": 12
+    }]
+}

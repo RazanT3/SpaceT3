@@ -1,0 +1,104 @@
+{
+  "version": "1.5",
+  "BASE_DATA": {
+    "radius": 6950,
+    "gravity": 0.144,
+    "timewarpHeight": 2000,
+    "mapColor": {
+      "r": 0.415,
+      "g": 0.42,
+      "b": 0.467,
+      "a": 1
+    },
+		"significant":false,
+		"rotateCamera":true
+  },
+  "TERRAIN_DATA": {
+    "TERRAIN_TEXTURE_DATA": {
+      "planetTexture": "Psyche",
+      "planetTextureCutout": 0.999,
+      "surfaceTexture_A": "Dark_Dust",
+      "surfaceTextureSize_A": {
+        "x": 20,
+        "y": 8
+      },
+      "surfaceTexture_B": "Hard_Rocks",
+      "surfaceTextureSize_B": {
+        "x": 40,
+        "y": 16
+      },
+      "terrainTexture_C": "Soft_Rocks",
+      "terrainTextureSize_C": {
+        "x": 280,
+        "y": 145
+      },
+      "surfaceLayerSize": 50,
+      "minFade": 0,
+      "maxFade": 1,
+      "shadowIntensity": 5,
+      "shadowHeight": 5
+    },
+    "terrainFormulaDifficulties": {
+      "normal": [
+	  "CONS = AddHeightMap( cons.txt, 43668.1, 1)",
+      "OUTPUT = AddHeightMap( Psyche_Cons.png, 43668.1, 1364.5, null, CONS )",
+	  "OUTPUT = AddHeightMap(Craters, 21834.05, 75)"
+    ],
+      "hard": [
+	  "CONS = AddHeightMap( cons.txt, 87336.3, 1)",
+      "OUTPUT = AddHeightMap( Psyche_Cons.png, 87336.3, 2726.9, null, CONS )",
+	  "OUTPUT = AddHeightMap(Craters, 43668.1, 150)"
+	  ],
+      "realistic": [
+	  "CONS = AddHeightMap( cons.txt, 873363, 1)",
+      "OUTPUT = AddHeightMap( Psyche_Cons.png, 873363, 27269, null, CONS )",
+	  "OUTPUT = AddHeightMap(Craters, 436681, 1500)"
+	  ]
+    },
+    "textureFormula": [],
+    "verticeSize": 0.15,
+    "collider": true,
+    "flatZones": []
+  },
+  "ORBIT_DATA": {
+    "parent": "Sun",
+    "semiMajorAxis": 21841289122,
+    "eccentricity": 0.1342,
+    "argumentOfPeriapsis": 229.41,
+    "direction": 1,
+    "multiplierSOI": 1.5
+  },
+  "ACHIEVEMENT_DATA": {
+    "Landed": true,
+    "Takeoff": true,
+    "Atmosphere": false,
+    "Orbit": true,
+    "Crash": true
+  },
+  "LANDMARKS": [
+	{
+      "name": "Charlie",
+      "angle": 15,
+      "startAngle": 340,
+      "endAngle": 430
+    },
+	{
+	  "name": "Foxtrot",
+      "angle": 87,
+      "startAngle": 79,
+      "endAngle": 101
+    },
+	{
+	  "name": "West Alpha",
+      "angle": 175,
+      "startAngle": 110,
+      "endAngle": 250
+    },
+	{
+	  "name": "Delta",
+      "angle": 300,
+      "startAngle": 260,
+      "endAngle": 335
+    }
+	]
+}

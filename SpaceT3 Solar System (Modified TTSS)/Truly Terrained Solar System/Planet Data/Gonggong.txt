@@ -1,0 +1,79 @@
+{
+  "version": "1.5",
+  "BASE_DATA": {
+    "radius": 30750,
+    "gravity": 0.3,
+    "timewarpHeight": 3000,
+    "mapColor": {
+      "r": 0.55,
+      "g": 0.43,
+      "b": 0.39,
+      "a": 1
+    },
+    "significant": false,
+    "rotateCamera": true
+  },
+  "TERRAIN_DATA": {
+    "TERRAIN_TEXTURE_DATA": {
+      "planetTexture": "Gonggong",
+      "planetTextureCutout": 1,
+      "surfaceTexture_A": "Ice",
+      "surfaceTextureSize_A": {
+        "x": -70,
+        "y": -25
+      },
+      "surfaceTexture_B": "Soft_Rocks",
+      "surfaceTextureSize_B": {
+        "x": 70,
+        "y": 25
+      },
+      "terrainTexture_C": "Ice",
+      "terrainTextureSize_C": {
+        "x": -320,
+        "y": -200
+      },
+      "surfaceLayerSize": 150,
+      "minFade": 0,
+      "maxFade": 1,
+      "shadowIntensity": 5,
+      "shadowHeight": 15
+    },
+    "terrainFormulaDifficulties": {
+      "normal": [
+	  "CONS = AddHeightMap(cons.txt, 116238, 1)",
+      "OUTPUT = AddHeightMap(Mountes.png, 24150, 307, null, CONS)",
+        "OUTPUT = AddHeightMap(Craters, 24150, 200)"
+    ],
+      "hard": [
+	  "CONS = AddHeightMap(cons.txt, 116238, 1)",
+      "OUTPUT = AddHeightMap(Mountes.png, 48301, 600, null, CONS)",
+        "OUTPUT = AddHeightMap(Craters, 48301, 400)"
+      ],
+      "realistic": [
+	  "CONS = AddHeightMap(cons.txt, 116238, 1)",
+      "OUTPUT = AddHeightMap(Mountes.png, 483010, 6000, null, CONS)",
+        "OUTPUT = AddHeightMap(Craters, 483010, 4000)"
+      ]
+    },
+    "textureFormula": [],
+    "verticeSize": 2,
+    "collider": true,
+    "flatZones": []
+  },
+  "ORBIT_DATA": {
+    "parent": "Sun",
+    "semiMajorAxis": 504780615200,
+    "eccentricity": 0.49943,
+    "argumentOfPeriapsis": 207.67,
+    "direction": 1,
+    "multiplierSOI": 8,
+  },
+  "ACHIEVEMENT_DATA": {
+    "Landed": true,
+    "Takeoff": true,
+    "Atmosphere": false,
+    "Orbit": true,
+    "Crash": true
+  },
+  "LANDMARKS": []
+}

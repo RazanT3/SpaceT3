@@ -19430,27 +19430,6 @@
       }
     },
     {
-      "n": "DE_FX Engine Hawk",
-      "p": {
-        "x": 13.0999985,
-        "y": 54.8000031
-      },
-      "o": {
-        "x": -0.3,
-        "y": 0.5,
-        "z": 25.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "depth": 0.0
-      },
-      "B": {
-        "engine_on": false,
-        "heat_on__for_creative_use": false,
-        "gimbal_on": false
-      }
-    },
-    {
       "n": "Fairing Cone Round",
       "p": {
         "x": 13.5,
@@ -21000,27 +20979,6 @@
       }
     },
     {
-      "n": "DE_FX Engine Hawk",
-      "p": {
-        "x": 13.1999969,
-        "y": 76.7
-      },
-      "o": {
-        "x": -0.3,
-        "y": 0.45,
-        "z": 22.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "depth": 0.0
-      },
-      "B": {
-        "engine_on": false,
-        "heat_on__for_creative_use": false,
-        "gimbal_on": false
-      }
-    },
-    {
       "n": "Fairing",
       "p": {
         "x": 13.1999969,
@@ -21199,27 +21157,6 @@
         "fragment": "right",
         "color_tex": "Color_Gray",
         "shape_tex": "Rivets"
-      }
-    },
-    {
-      "n": "DE_FX Engine Hawk",
-      "p": {
-        "x": 6.800003,
-        "y": 76.7
-      },
-      "o": {
-        "x": -0.3,
-        "y": -0.45,
-        "z": 158.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "depth": 0.0
-      },
-      "B": {
-        "engine_on": false,
-        "heat_on__for_creative_use": false,
-        "gimbal_on": false
       }
     },
     {
@@ -23740,48 +23677,6 @@
       }
     },
     {
-      "n": "DE_FX Engine Frontier",
-      "p": {
-        "x": 12.0,
-        "y": 72.95
-      },
-      "o": {
-        "x": 1.0,
-        "y": 5.05,
-        "z": 7.62939453E-06
-      },
-      "t": "NaN",
-      "N": {
-        "depth": 0.0
-      },
-      "B": {
-        "engine_on": false,
-        "heat_on__for_creative_use": false,
-        "gimbal_on": false
-      }
-    },
-    {
-      "n": "DE_FX Engine Frontier",
-      "p": {
-        "x": 8.000004,
-        "y": 72.95
-      },
-      "o": {
-        "x": 1.0,
-        "y": 5.05,
-        "z": 7.62939453E-06
-      },
-      "t": "NaN",
-      "N": {
-        "depth": 0.0
-      },
-      "B": {
-        "engine_on": false,
-        "heat_on__for_creative_use": false,
-        "gimbal_on": false
-      }
-    },
-    {
       "n": "Docking Port",
       "p": {
         "x": 10.0,
@@ -23834,27 +23729,6 @@
         "fragment": "left",
         "color_tex": "Metal_4",
         "shape_tex": "Flat Smooth 4"
-      }
-    },
-    {
-      "n": "DE_FX Engine Hawk",
-      "p": {
-        "x": 6.90000153,
-        "y": 54.8000031
-      },
-      "o": {
-        "x": -0.3,
-        "y": -0.5,
-        "z": 155.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "depth": 0.0
-      },
-      "B": {
-        "engine_on": false,
-        "heat_on__for_creative_use": false,
-        "gimbal_on": false
       }
     },
     {
@@ -25882,27 +25756,6 @@
       }
     },
     {
-      "n": "DE_FX Engine Hawk",
-      "p": {
-        "x": 12.0999985,
-        "y": 32.5
-      },
-      "o": {
-        "x": 1.3,
-        "y": 9.84,
-        "z": 0.0
-      },
-      "t": "NaN",
-      "N": {
-        "depth": 0.0
-      },
-      "B": {
-        "engine_on": false,
-        "heat_on__for_creative_use": false,
-        "gimbal_on": false
-      }
-    },
-    {
       "n": "Fairing",
       "p": {
         "x": 12.8000031,
@@ -26034,27 +25887,6 @@
         "x": 0.0,
         "top": "",
         "bottom": ""
-      }
-    },
-    {
-      "n": "DE_FX Engine Hawk",
-      "p": {
-        "x": 7.90000153,
-        "y": 32.5
-      },
-      "o": {
-        "x": 1.3,
-        "y": 9.84,
-        "z": 0.0
-      },
-      "t": "NaN",
-      "N": {
-        "depth": 0.0
-      },
-      "B": {
-        "engine_on": false,
-        "heat_on__for_creative_use": false,
-        "gimbal_on": false
       }
     },
     {
@@ -28525,55 +28357,6 @@
       }
     },
     {
-      "n": "Fuel Tank",
-      "p": {
-        "x": -4.0,
-        "y": 81.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 7.0,
-        "width_a": 7.0,
-        "width_b": 7.0,
-        "height": 6.0,
-        "fuel_percent": 1.0
-      },
-      "T": {
-        "color_tex": "Metal",
-        "shape_tex": "Fairing Edges"
-      }
-    },
-    {
-      "n": "Docking Port",
-      "p": {
-        "x": -4.0,
-        "y": 80.75
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 4.4000000953674316,
-        "force_multiplier": 0.0,
-        "sep_force_multiplier": 0.0
-      },
-      "B": {
-        "disable_vanilla_shading": false
-      },
-      "T": {
-        "color_tex": "",
-        "shape_tex": ""
-      }
-    },
-    {
       "n": "Cone Side",
       "p": {
         "x": 0.0,
@@ -28645,7 +28428,7 @@
       "N": {
         "width": 0.34999999403953552,
         "force_multiplier": 0.0,
-        "sep_force_multiplier": 1.0
+        "sep_force_multiplier": 0.0
       },
       "B": {
         "disable_vanilla_shading": false
@@ -28754,7 +28537,7 @@
       "N": {
         "width": 0.34999999403953552,
         "force_multiplier": 0.0,
-        "sep_force_multiplier": 1.0
+        "sep_force_multiplier": 0.0
       },
       "B": {
         "disable_vanilla_shading": false
@@ -28839,7 +28622,7 @@
       "N": {
         "width": 0.34999999403953552,
         "force_multiplier": 0.0,
-        "sep_force_multiplier": 1.0
+        "sep_force_multiplier": 0.0
       },
       "B": {
         "disable_vanilla_shading": false
@@ -29282,22 +29065,6 @@
       }
     },
     {
-      "n": "Wheel Medium",
-      "p": {
-        "x": 0.05000305,
-        "y": 57.0
-      },
-      "o": {
-        "x": -0.35,
-        "y": -0.35,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "B": {
-        "wheel_on": true
-      }
-    },
-    {
       "n": "Fuel Tank",
       "p": {
         "x": 10.0,
@@ -29367,27 +29134,6 @@
       "T": {
         "color_tex": "Color_White",
         "shape_tex": "Edges Faces"
-      }
-    },
-    {
-      "n": "DE_FX Engine Hawk",
-      "p": {
-        "x": 10.0,
-        "y": 32.5000038
-      },
-      "o": {
-        "x": 1.3,
-        "y": 9.84,
-        "z": 0.0
-      },
-      "t": "NaN",
-      "N": {
-        "depth": 0.0
-      },
-      "B": {
-        "engine_on": false,
-        "heat_on__for_creative_use": false,
-        "gimbal_on": false
       }
     },
     {
@@ -29466,27 +29212,6 @@
         "fragment": "both",
         "color_tex": "Color_Black",
         "shape_tex": "Flat Smooth 4"
-      }
-    },
-    {
-      "n": "DE_FX Engine Frontier",
-      "p": {
-        "x": 10.0,
-        "y": 72.95
-      },
-      "o": {
-        "x": 1.0,
-        "y": 5.05,
-        "z": 7.62939453E-06
-      },
-      "t": "NaN",
-      "N": {
-        "depth": 0.0
-      },
-      "B": {
-        "engine_on": false,
-        "heat_on__for_creative_use": false,
-        "gimbal_on": false
       }
     },
     {
@@ -29925,119 +29650,364 @@
         "top": "",
         "bottom": ""
       }
+    },
+    {
+      "n": "Engine Hawk",
+      "p": {
+        "x": 7.90000153,
+        "y": 32.5
+      },
+      "o": {
+        "x": 1.3,
+        "y": 9.84,
+        "z": 0.0
+      },
+      "t": "NaN",
+      "B": {
+        "engine_on": false,
+        "heat_on__for_creative_use": false,
+        "gimbal_on": false
+      }
+    },
+    {
+      "n": "Engine Hawk",
+      "p": {
+        "x": 12.0999985,
+        "y": 32.5
+      },
+      "o": {
+        "x": 1.3,
+        "y": 9.84,
+        "z": 0.0
+      },
+      "t": "NaN",
+      "B": {
+        "engine_on": false,
+        "heat_on__for_creative_use": false,
+        "gimbal_on": false
+      }
+    },
+    {
+      "n": "Engine Hawk",
+      "p": {
+        "x": 10.0,
+        "y": 32.5000038
+      },
+      "o": {
+        "x": 1.3,
+        "y": 9.84,
+        "z": 0.0
+      },
+      "t": "NaN",
+      "B": {
+        "engine_on": false,
+        "heat_on__for_creative_use": false,
+        "gimbal_on": false
+      }
+    },
+    {
+      "n": "Engine Hawk",
+      "p": {
+        "x": 13.0999985,
+        "y": 54.8000031
+      },
+      "o": {
+        "x": -0.3,
+        "y": 0.5,
+        "z": 25.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false,
+        "heat_on__for_creative_use": false,
+        "gimbal_on": false
+      }
+    },
+    {
+      "n": "Engine Hawk",
+      "p": {
+        "x": 6.90000153,
+        "y": 54.8000031
+      },
+      "o": {
+        "x": -0.3,
+        "y": -0.5,
+        "z": 155.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false,
+        "heat_on__for_creative_use": false,
+        "gimbal_on": false
+      }
+    },
+    {
+      "n": "Engine Hawk",
+      "p": {
+        "x": 13.1999969,
+        "y": 76.7
+      },
+      "o": {
+        "x": -0.3,
+        "y": 0.45,
+        "z": 22.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false,
+        "heat_on__for_creative_use": false,
+        "gimbal_on": false
+      }
+    },
+    {
+      "n": "Engine Hawk",
+      "p": {
+        "x": 6.800003,
+        "y": 76.7
+      },
+      "o": {
+        "x": -0.3,
+        "y": -0.45,
+        "z": 158.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false,
+        "heat_on__for_creative_use": false,
+        "gimbal_on": false
+      }
+    },
+    {
+      "n": "Engine Frontier",
+      "p": {
+        "x": 12.0,
+        "y": 72.95
+      },
+      "o": {
+        "x": 1.0,
+        "y": 5.05,
+        "z": 7.62939453E-06
+      },
+      "t": "NaN",
+      "B": {
+        "engine_on": false,
+        "heat_on__for_creative_use": false,
+        "gimbal_on": false
+      }
+    },
+    {
+      "n": "Engine Frontier",
+      "p": {
+        "x": 8.000004,
+        "y": 72.95
+      },
+      "o": {
+        "x": 1.0,
+        "y": 5.05,
+        "z": 7.62939453E-06
+      },
+      "t": "NaN",
+      "B": {
+        "engine_on": false,
+        "heat_on__for_creative_use": false,
+        "gimbal_on": false
+      }
+    },
+    {
+      "n": "Engine Frontier",
+      "p": {
+        "x": 10.0,
+        "y": 72.95
+      },
+      "o": {
+        "x": 1.0,
+        "y": 5.05,
+        "z": 7.62939453E-06
+      },
+      "t": "NaN",
+      "B": {
+        "engine_on": false,
+        "heat_on__for_creative_use": false,
+        "gimbal_on": false
+      }
+    },
+    {
+      "n": "Wheel Medium",
+      "p": {
+        "x": 0.05000305,
+        "y": 57.0
+      },
+      "o": {
+        "x": -0.35,
+        "y": -0.35,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "wheel_on": true
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": -4.0,
+        "y": 81.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 7.0,
+        "width_a": 7.0,
+        "width_b": 7.0,
+        "height": 6.0,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Metal",
+        "shape_tex": "Fairing Edges"
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": -4.0,
+        "y": 80.75
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 4.4000000953674316,
+        "force_multiplier": 0.0,
+        "sep_force_multiplier": 0.0
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      }
     }
   ],
   "stages": [
     {
       "stageId": 1,
       "partIndexes": [
-        1034,
-        1062,
+        1024,
         646,
-        1016
+        1008,
+        1071
       ]
     },
     {
       "stageId": 2,
       "partIndexes": [
-        936,
-        931
+        1069,
+        1070
       ]
     },
     {
       "stageId": 3,
       "partIndexes": [
         684,
-        1027,
-        966,
-        1023
+        1019,
+        958,
+        1015
       ]
     },
     {
       "stageId": 4,
       "partIndexes": [
-        936,
-        931
+        1069,
+        1070
       ]
     },
     {
       "stageId": 5,
       "partIndexes": [
-        1062,
-        854,
-        853,
-        736,
-        698,
-        709,
-        704,
-        855
+        735,
+        708,
+        703,
+        850,
+        1071,
+        1072,
+        1076,
+        1077
       ]
     },
     {
       "stageId": 6,
       "partIndexes": [
-        698,
-        857,
-        936,
-        1062,
-        931,
-        700
+        699,
+        1069,
+        1071,
+        1070,
+        1072,
+        1073
       ]
     },
     {
       "stageId": 7,
       "partIndexes": [
-        857
+        1073
       ]
     },
     {
       "stageId": 8,
       "partIndexes": [
-        936,
-        931
+        1069,
+        1070
       ]
     },
     {
       "stageId": 9,
       "partIndexes": [
-        857,
-        698,
-        1062
+        1071,
+        1072,
+        1073
       ]
     },
     {
       "stageId": 10,
       "partIndexes": [
-        1066
+        1078
       ]
     },
     {
       "stageId": 11,
       "partIndexes": [
-        854,
-        853
+        1076,
+        1077
       ]
     },
     {
       "stageId": 12,
       "partIndexes": [
-        1066,
-        762,
-        754
+        1078,
+        1074,
+        1075
       ]
     },
     {
       "stageId": 13,
       "partIndexes": [
-        1016,
+        1008,
         646
       ]
     },
     {
       "stageId": 14,
       "partIndexes": [
-        966,
-        1023
+        958,
+        1015
       ]
     }
   ],

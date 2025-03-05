@@ -1,0 +1,102 @@
+{
+  "version": "1.5",
+  "BASE_DATA": {
+    "radius": 6300000,
+    "radiusDifficultyScale": {
+      "Normal": 0,
+      "Hard": 0,
+      "Realistic": 1
+    },
+    "gravity": 0,
+    "timewarpHeight": "NaN",
+    "mapColor": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0
+    },
+    "significant": false,
+    "rotateCamera": false
+  },
+   "ATMOSPHERE_PHYSICS_DATA": {
+    "height": "NaN",
+    "density": 0,
+    "curve": 0,
+    "parachuteMultiplier": 0,
+    "upperAtmosphere": 0,
+    "heightDifficultyScale": {"normal": 0, "hard": 0, "realistic": 1},
+    "shockwaveIntensity": 0,
+    "startHeatingVelocityMultiplier": 0
+  },
+  "ATMOSPHERE_VISUALS_DATA": {
+    "GRADIENT": {
+      "positionZ": 0,
+      "height": 150000,
+      "texture": "None"
+    },
+    "CLOUDS": {
+      "texture": "Cycle",
+      "startHeight": -156000,
+      "width": 38603890.52731138,
+      "height": 7300000,
+      "alpha": 1,
+      "velocity": 14.8
+    },
+    "FOG": {
+      "keys": []
+    }
+  },
+  "TERRAIN_DATA": {
+    "TERRAIN_TEXTURE_DATA": {
+      "planetTexture": "None",
+      "planetTextureCutout": 0,
+      "surfaceTexture_A": "Ice",
+      "surfaceTextureSize_A": {
+        "x": -1,
+        "y": -1
+      },
+      "surfaceTexture_B": "Ice",
+      "surfaceTextureSize_B": {
+        "x": -1,
+        "y": -1
+      },
+      "terrainTexture_C": "Ice",
+      "terrainTextureSize_C": {
+        "x": -1,
+        "y": -1
+      },
+      "surfaceLayerSize": 60,
+      "minFade": 0,
+      "maxFade": 0,
+      "shadowIntensity": 0,
+      "shadowHeight": 0
+    },
+    "terrainFormulaDifficulties": {
+      "normal": [],
+      "hard": [],
+      "realistic": [
+	  "OUTPUT = AddHeightMap(cons.txt, 178756.6, 6300000)"
+	  ]
+    },
+    "textureFormula": [],
+    "verticeSize": 13,
+    "collider": false,
+    "flatZones": []
+  },
+  "ORBIT_DATA": {
+    "parent": "Earth",
+    "semiMajorAxis": 0,
+    "eccentricity": 0,
+    "argumentOfPeriapsis": 0,
+    "direction": 0,
+    "multiplierSOI": 0
+  },
+  "ACHIEVEMENT_DATA": {
+    "Landed": false,
+    "Takeoff": false,
+    "Atmosphere": false,
+    "Orbit": false,
+    "Crash": false
+  },
+  "LANDMARKS": []
+}

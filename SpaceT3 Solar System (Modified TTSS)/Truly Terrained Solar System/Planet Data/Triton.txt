@@ -1,0 +1,150 @@
+{
+  "version": "1.5",
+  "BASE_DATA": {
+    "radius": 67670,
+    "gravity": 0.779,
+    "timewarpHeight": 3000,
+    "mapColor": {
+      "r": 0.61,
+      "g": 0.64,
+      "b": 0.615,
+      "a": 1
+    }
+  },
+  "ATMOSPHERE_VISUALS_DATA": {
+    "GRADIENT": {
+      "positionZ": 10,
+      "height": 12000,
+      "texture": "Atmo_Europa"
+    },
+    "CLOUDS": {
+      "texture": "Earth_Clouds",
+      "startHeight": 4000,
+      "width": 600,
+      "height": 3000,
+      "alpha": 0.1,
+      "velocity": 0.1
+    },
+    "FOG": {
+      "keys": []
+    }
+  },
+  "TERRAIN_DATA": {
+    "TERRAIN_TEXTURE_DATA": {
+      "planetTexture": "Triton",
+      "planetTextureCutout":0.999,
+      "surfaceTexture_A": "Ice",
+      "surfaceTextureSize_A": {
+        "x": -70,
+        "y": -25
+      },
+      "surfaceTexture_B": "Soft_Rocks",
+      "surfaceTextureSize_B": {
+        "x": 70,
+        "y": 25
+      },
+      "terrainTexture_C": "Ice",
+      "terrainTextureSize_C": {
+        "x": -320,
+        "y": -200
+      },
+      "surfaceLayerSize": 150,
+      "minFade": 0,
+      "maxFade": 1,
+      "shadowIntensity": 5,
+      "shadowHeight": 15
+    },
+    "terrainFormulaDifficulties": {
+      "normal": [
+      "OUTPUT = AddHeightMap( Craters, 20246.8, 80)",
+      "OUTPUT = AddHeightMap( Perlin,1675, 6, Pow3)",
+      "OUTPUT = AddHeightMap( Perlin,4243, 11, Pow3)",
+      "OUTPUT = AddHeightMap( Perlin,13069, 18, Pow3)",
+      "M = AddHeightMap( test15.png, 425183, 1)",
+      "OUTPUT = AddHeightMap( Perlin, 35431.9, 150, null, M)"
+    ],
+	"hard": [
+	  "OUTPUT = AddHeightMap( Craters, 40493.6, 160)",
+	  "OUTPUT = AddHeightMap( cons.txt, 8503660, 300)",
+      "OUTPUT = AddHeightMap( Perlin,3350, 12, Pow3)",
+      "OUTPUT = AddHeightMap( Perlin,8486, 22, Pow3)",
+      "OUTPUT = AddHeightMap( Perlin,26138, 36, Pow3)",
+      "M = AddHeightMap( test15.png, 850366, 1)",
+      "OUTPUT = AddHeightMap( Perlin,70863.8, 300, null, M)"
+	  ],
+	"realistic": [
+	  "OUTPUT = AddHeightMap( Craters, 404936, 1600)",
+	  "OUTPUT = AddHeightMap( cons.txt, 8503660, 3000)",
+      "OUTPUT = AddHeightMap( Perlin,33500, 120, Pow3)",
+      "OUTPUT = AddHeightMap( Perlin,84860, 220, Pow3)",
+      "OUTPUT = AddHeightMap( Perlin,261380, 360, Pow3)",
+      "M = AddHeightMap( test15.png, 8503660, 1)",
+      "OUTPUT = AddHeightMap( Perlin,708638, 3000, null, M)"
+	  ]
+    },
+    "textureFormula": [],
+    "verticeSize": 2,
+    "collider": true,
+	"rocks":
+        {
+            "rockType":"Rock Square",
+            "rockDensity":0.4,
+            "minSize":0.25,
+            "maxSize":0.75,
+            "powerCurve":3,
+            "maxAngle": 30
+        }
+  },
+  "POST_PROCESSING": {},
+  "ORBIT_DATA": {
+    "parent": "Neptune",
+    "semiMajorAxis": 14190360,
+    "smaDifficultyScale": {
+      "normal": 1,
+      "hard": 2.5,
+      "realistic": 25
+    },
+    "eccentricity": 0,
+    "argumentOfPeriapsis": 0,
+    "direction": -1,
+    "multiplierSOI": 3
+  },
+  "ACHIEVEMENT_DATA": {
+    "Landed": true,
+    "Takeoff": true,
+    "Atmosphere": true,
+    "Orbit": true,
+    "Crash": true
+  },
+  "LANDMARKS": [
+  {
+      "name": "Medamothi Planum",
+      "angle": 32.5,
+      "startAngle": 25,
+      "endAngle": 40
+    },
+	{
+      "name": "Monad Regio",
+      "angle": 77.5,
+      "startAngle": 65,
+      "endAngle": 90
+    },
+	{
+      "name": "Bubembe Regio",
+      "angle": 140,
+      "startAngle": 95,
+      "endAngle": 185
+    },
+	{
+      "name": "Uhlanga Regio",
+      "angle": 262.5,
+      "startAngle": 230,
+      "endAngle": 295
+    },
+	{
+      "name": "Abatos Planum",
+      "angle": 335,
+      "startAngle": 320,
+      "endAngle": 350
+    }]
+}

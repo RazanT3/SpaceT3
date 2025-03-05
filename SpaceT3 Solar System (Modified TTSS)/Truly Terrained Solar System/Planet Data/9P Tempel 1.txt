@@ -1,0 +1,114 @@
+{
+  "version": "1.5",
+  "BASE_DATA": {
+    "radius": 690.91,
+    "radiusDifficultyScale": {
+      "normal": 1,
+      "hard": 2,
+      "realistic": 11
+    },
+    "gravity": 0.01994,
+    "gravityDifficultyScale": {
+      "normal": 1,
+      "hard": 1,
+      "realistic": 0.066
+    },
+    "timewarpHeight": 500,
+    "velocityArrowsHeight": -1000,
+    "mapColor": {
+      "r": 0.3,
+      "g": 0.3,
+      "b": 0.3,
+      "a": 1
+    },
+    "significant": false,
+    "rotateCamera": true
+  },
+   "ATMOSPHERE_VISUALS_DATA": {
+    "GRADIENT": {
+      "positionZ": -1600,
+      "height": 2000000,
+      "texture": "Atmo_Europa"
+    },
+    "CLOUDS": {
+      "texture": "None",
+      "startHeight": 0,
+      "width": 0,
+      "height": 0,
+      "alpha": 0,
+      "velocity": 0
+    },
+    "FOG": {
+      "keys": []
+    }
+  },
+  "TERRAIN_DATA": {
+    "TERRAIN_TEXTURE_DATA": {
+      "planetTexture": "9P",
+      "planetTextureCutout": 1,
+      "surfaceTexture_A": "Ice",
+      "surfaceTextureSize_A": {
+        "x": -70,
+        "y": -25
+      },
+      "surfaceTexture_B": "Soft_Rocks",
+      "surfaceTextureSize_B": {
+        "x": 70,
+        "y": 25
+      },
+      "terrainTexture_C": "Limestone",
+      "terrainTextureSize_C": {
+        "x": -320,
+        "y": -200
+      },
+      "surfaceLayerSize": 50,
+      "minFade": 2,
+      "maxFade": 3,
+      "shadowIntensity": 1,
+      "shadowHeight": 2
+    },
+    "terrainFormulaDifficulties": {
+      "Normal": [
+	    "CONS = AddHeightMap( cons.txt, 4341.1, 1)",
+        "OUTPUT = AddHeightMap( Comet_Cons9P.png, 4341.1, 321.37, null, CONS )"
+      ],
+      "Hard": [
+	    "CONS = AddHeightMap( cons.txt, 8682.2, 1)",
+        "OUTPUT = AddHeightMap( Comet_Cons9P.png, 8682.2, 642.76, null, CONS )"
+      ],
+      "Realistic": [
+	    "CONS = AddHeightMap( cons.txt, 47752.27, 1)",
+        "OUTPUT = AddHeightMap( Comet_Cons9P.png, 47752.27, 3535.16, null, CONS )"
+      ]
+    },
+    "textureFormula": [],
+    "verticeSize": 0.15,
+    "collider": true,
+    "rocks": {
+      "rockType": "Rock Square",
+      "rockDensity": 2,
+      "minSize": 0.05,
+      "maxSize": 0.1,
+      "powerCurve": 2.5,
+      "maxAngle": 90
+    }
+  },
+  "ORBIT_DATA": {
+    "parent": "Sun",
+    "semiMajorAxis": 24379805778.52,
+    "smaDifficultyScale": {},
+    "eccentricity": 0.45695,
+    "argumentOfPeriapsis": 179.22,
+    "direction": 1,
+    "multiplierSOI": 12,
+    "soidifficultyscale": {}
+  },
+  "ACHIEVEMENT_DATA": {
+    "Landed": true,
+    "Takeoff": true,
+    "Atmosphere": true,
+    "Orbit": true,
+    "Crash": true
+  },
+  "LANDMARKS": []
+}

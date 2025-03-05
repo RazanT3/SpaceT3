@@ -1,0 +1,111 @@
+﻿{
+  "version": "1.5",
+  "BASE_DATA": {
+    "radius": 340864.65,
+    "gravity": 10.62,
+    "timewarpHeight": 15000,
+    "velocityArrowsHeight": 5000,
+    "mapColor": {
+      "r": 0.43,
+      "g": 0.43,
+      "b": 0.43,
+      "a": 1
+    }
+  },
+  "TERRAIN_DATA": {
+    "TERRAIN_TEXTURE_DATA": {
+      "planetTexture": "Kepler-186b",
+      "planetTextureCutout": 1,
+      "surfaceTexture_A": "Blured",
+      "surfaceTextureSize_A": {
+        "x": 20,
+        "y": 8
+      },
+      "surfaceTexture_B": "None",
+      "surfaceTextureSize_B": {
+        "x": -1,
+        "y": -1
+      },
+      "terrainTexture_C": "Blured",
+      "terrainTextureSize_C": {
+        "x": 100,
+        "y": 30
+      },
+      "surfaceLayerSize": 40,
+      "minFade": 0,
+      "maxFade": 1,
+      "shadowIntensity": 6,
+      "shadowHeight": 15
+    },
+    "terrainFormulaDifficulties": {
+      "normal": [
+	    "CONS = AddHeightMap(cons.txt, 2141715.7, 1)",
+         "OUTPUT = AddHeightMap(K186bCrt.png,2141715.7, 1500, null, CONS)",
+	    "PLAINS = AddHeightMap(K186bPlains.png, 2141715.7, 1)",
+         "OUTPUT = AddHeightMap(Craters,75398, 350, null, PLAINS)",
+         "OUTPUT = AddHeightMap(Craters,15079, 100, null, PLAINS)",
+         "OUTPUT = AddHeightMap(Craters,2356, 12, null, PLAINS)",
+        "OUTPUT = AddHeightMap(Perlin,18957.8, 20)",
+        "OUTPUT = AddHeightMap(Perlin,2451.6, 5)"
+      ],
+	  "hard": [
+	    "CONS = AddHeightMap(cons.txt, 4283431.5, 1)",
+         "OUTPUT = AddHeightMap(K186bCrt.png,4283431.5, 3000, null, CONS)",
+	    "PLAINS = AddHeightMap(K186bPlains.png, 4283431.5, 1)",
+         "OUTPUT = AddHeightMap(Craters,150796, 700, null, PLAINS)",
+         "OUTPUT = AddHeightMap(Craters,30158, 200, null, PLAINS)",
+         "OUTPUT = AddHeightMap(Craters,4712, 24, null, PLAINS)",
+        "OUTPUT = AddHeightMap(Perlin,18957.8, 20)",
+        "OUTPUT = AddHeightMap(Perlin,2451.6, 5)"
+      ],
+	  "realistic": [
+	    "CONS = AddHeightMap(cons.txt, 42834315, 1)",
+         "OUTPUT = AddHeightMap(K186bCrt.png,42834315, 30000, null, CONS)",
+	    "PLAINS = AddHeightMap(K186bPlains.png, 42834315, 1)",
+         "OUTPUT = AddHeightMap(Craters,1507960, 7000, null, PLAINS)",
+         "OUTPUT = AddHeightMap(Craters,301580, 2000, null, PLAINS)",
+         "OUTPUT = AddHeightMap(Craters,47120, 240, null, PLAINS)",
+        "OUTPUT = AddHeightMap(Perlin,18957.8, 20)",
+        "OUTPUT = AddHeightMap(Perlin,2451.6, 5)"
+      ],
+    },
+    "textureFormula": [],
+    "verticeSize": 1,
+    "collider": true,
+    "flatZones": []
+  },
+  "ORBIT_DATA": {
+    "parent": "Kepler-186",
+    "semiMajorAxis": 282739976,
+    "eccentricity": 0,
+    "argumentOfPeriapsis": 0,
+    "direction": 1,
+    "multiplierSOI": 2.5
+  },
+  "ACHIEVEMENT_DATA": {
+    "Landed": true,
+    "Takeoff": true,
+    "Atmosphere": true,
+    "Orbit": true,
+    "Crash": true
+  },
+  "LANDMARKS": [
+  {
+      "name": "Ridiculam Planitia",
+      "angle": -10,
+      "startAngle": 228.96,
+      "endAngle": 388.6
+    },
+	{
+      "name": "Iratus Crater",
+      "angle": 47,
+      "startAngle": 44.46,
+      "endAngle": 49.62
+    },
+	{
+      "name": "Lugubris Planitia",
+      "angle": 150,
+      "startAngle": 128.42,
+      "endAngle": 184.8
+    }]
+}

@@ -1,0 +1,82 @@
+{
+  "version": "1.5",
+  "BASE_DATA": {
+    "radius": 21650,
+    "gravity": 0.1814,
+    "timewarpHeight": 2000,
+    "mapColor": {
+      "r": 0.47,
+      "g": 0.51,
+      "b": 0.6,
+      "a": 1
+    },
+    "significant": false,
+    "rotateCamera": true
+  },
+  "TERRAIN_DATA": {
+    "TERRAIN_TEXTURE_DATA": {
+      "planetTexture": "Salacia",
+      "planetTextureCutout": 1,
+      "surfaceTexture_A": "Ice",
+      "surfaceTextureSize_A": {
+        "x": -70,
+        "y": -25
+      },
+      "surfaceTexture_B": "Soft_Rocks",
+      "surfaceTextureSize_B": {
+        "x": 70,
+        "y": 25
+      },
+      "terrainTexture_C": "Ice",
+      "terrainTextureSize_C": {
+        "x": -320,
+        "y": -200
+      },
+      "surfaceLayerSize": 150,
+      "minFade": 0,
+      "maxFade": 1,
+      "shadowIntensity": 5,
+      "shadowHeight": 15
+    },
+    "terrainFormulaDifficulties": {
+      "normal": [
+	  "CONS = AddHeightMap(cons.txt, 136030, 1)",
+      "OUTPUT = AddHeightMap(Canyd1.png, 136030, 1000, null, CONS)",
+	  "OUTPUT = AddHeightMap(Craters, 22671, 100)",
+	  "OUTPUT = AddHeightMap(Craters, 4534, 35)"
+    ],
+      "hard": [
+	  "CONS = AddHeightMap(cons.txt, 272061, 1)",
+      "OUTPUT = AddHeightMap(Canyd1.png, 272061, 2000, null, CONS)",
+	  "OUTPUT = AddHeightMap(Craters, 45343, 200)",
+	  "OUTPUT = AddHeightMap(Craters, 9068, 70)"
+      ],
+      "realistic": [
+	  "CONS = AddHeightMap(cons.txt, 2720610, 1)",
+      "OUTPUT = AddHeightMap(Canyd1.png, 2720610, 20000, null, CONS)",
+	  "OUTPUT = AddHeightMap(Craters, 453430, 2000)",
+	  "OUTPUT = AddHeightMap(Craters, 90680, 700)"
+      ]
+    },
+    "textureFormula": [],
+    "verticeSize": 2,
+    "collider": true,
+    "flatZones": []
+  },
+  "ORBIT_DATA": {
+    "parent": "Sun",
+    "semiMajorAxis": 315531828900,
+    "eccentricity": 0.10636,
+    "argumentOfPeriapsis": 312.3,
+    "direction": 1,
+    "multiplierSOI": 8,
+  },
+  "ACHIEVEMENT_DATA": {
+    "Landed": true,
+    "Takeoff": true,
+    "Atmosphere": false,
+    "Orbit": true,
+    "Crash": true
+  },
+  "LANDMARKS": []
+}

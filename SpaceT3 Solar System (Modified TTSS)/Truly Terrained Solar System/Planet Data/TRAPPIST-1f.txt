@@ -1,0 +1,177 @@
+﻿{
+  "version": "1.5",
+  "BASE_DATA": {
+    "radius": 332900,
+    "gravity": 9.34,
+    "timewarpHeight": 15000,
+    "velocityArrowsHeight": 5000,
+    "mapColor": {
+      "r": 0.31,
+      "g": 0.42,
+      "b": 0.58,
+      "a": 1
+    }
+  },
+  "ATMOSPHERE_PHYSICS_DATA": {
+    "height": 30000,
+    "density": 0.005,
+    "curve": 10,
+    "parachuteMultiplier": 1,
+    "upperAtmosphere": 0.3,
+    "shockwaveIntensity": 1,
+    "minHeatingVelocityMultiplier": 1,
+	"hasOxygen": true
+  },
+  "ATMOSPHERE_VISUALS_DATA": {
+    "GRADIENT": {
+      "positionZ": 4000,
+      "height": 45000,
+      "texture": "Atmo_Earth"
+    },
+    "CLOUDS": {
+      "texture": "Earth_Clouds",
+      "startHeight": -500,
+      "height": 36000,
+      "width": 40845.87,
+      "alpha": 0.2,
+      "velocity": 1
+    },
+    "FOG": {
+      "keys": [
+        {
+          "color": {
+            "r": 0.461872876,
+            "g": 0.463235319,
+            "b": 0.3644572,
+            "a": 0.09803922
+          },
+          "distance": 500
+        },
+        {
+          "color": {
+            "r": 0.647058845,
+            "g": 0.848739564,
+            "b": 0.891,
+            "a": 0.117647059
+          },
+          "distance": 3000
+        },
+        {
+          "color": {
+            "r": 0.647058845,
+            "g": 0.848739564,
+            "b": 1,
+            "a": 0.416
+          },
+          "distance": 30000
+        }
+      ]
+    }
+  },
+  "TERRAIN_DATA": {
+    "TERRAIN_TEXTURE_DATA": {
+      "planetTexture": "TRAPPIST-1f",
+      "planetTextureCutout": 0.98,
+      "surfaceTexture_A": "Soft_Rocks",
+      "surfaceTextureSize_A": {
+        "x": -82,
+        "y": -70
+      },
+      "surfaceTexture_B": "Soft_Rocks",
+      "surfaceTextureSize_B": {
+        "x": 48,
+        "y": 20
+      },
+      "terrainTexture_C": "Blured",
+      "terrainTextureSize_C": {
+        "x": 300,
+        "y": 180
+      },
+      "surfaceLayerSize": 400,
+      "minFade": 0,
+      "maxFade": 1,
+      "shadowIntensity": 5,
+      "shadowHeight": 15
+
+    },
+    "terrainFormulaDifficulties": {
+      "normal": [
+        "SEA = AddHeightMap(SEA_T1f.png, 2091672, 1)",
+         "OUTPUT = AddHeightMap(cons.txt, 2091672, 400, null, SEA)",
+        "MNT = AddHeightMap(T1fMnt.png, 2091672, 1)",
+         "OUTPUT = AddHeightMap(Mountes2.png, 27522, 520, null, MNT)",
+        "OUTPUT = AddHeightMap(Perlin,18957.8, 20)",
+        "OUTPUT = AddHeightMap(Perlin,2451.6, 5)",
+        "OUTPUT = AddHeightMap(Perlin,1319.2, 1)"
+      ],
+	  "hard": [
+        "SEA = AddHeightMap(SEA_T1f.png, 4183345, 1)",
+         "OUTPUT = AddHeightMap(cons.txt, 4183345, 800, null, SEA)",
+        "MNT = AddHeightMap(T1fMnt.png, 4183345, 1)",
+         "OUTPUT = AddHeightMap(Mountes2.png, 55044, 1040, null, MNT)",
+        "OUTPUT = AddHeightMap(Perlin,18957.8, 20)",
+        "OUTPUT = AddHeightMap(Perlin,2451.6, 5)",
+        "OUTPUT = AddHeightMap(Perlin,1319.2, 1)"
+      ],
+	  "realistic": [
+        "SEA = AddHeightMap(SEA_T1f.png, 41833450, 1)",
+         "OUTPUT = AddHeightMap(cons.txt, 41833450, 8000, null, SEA)",
+        "MNT = AddHeightMap(T1fMnt.png, 41833450, 1)",
+         "OUTPUT = AddHeightMap(Mountes2.png, 550440, 10400, null, MNT)",
+        "OUTPUT = AddHeightMap(Perlin,18957.8, 20)",
+        "OUTPUT = AddHeightMap(Perlin,2451.6, 5)",
+        "OUTPUT = AddHeightMap(Perlin,1319.2, 1)"
+      ],
+    },
+    "textureFormula": [],
+    "verticeSize": 1,
+    "collider": true,
+    "flatZones": []
+  },
+  "ORBIT_DATA": {
+    "parent": "TRAPPIST-1",
+    "semiMajorAxis": 287901102,
+    "eccentricity": 0.01,
+    "argumentOfPeriapsis": 368.81,
+    "direction": 1,
+    "multiplierSOI": 2.5
+  },
+  "ACHIEVEMENT_DATA": {
+    "Landed": true,
+    "Takeoff": true,
+    "Atmosphere": true,
+    "Orbit": true,
+    "Crash": true
+  },
+  "LANDMARKS": [
+    {
+      "name": "Insulae Albae Petrae",
+      "angle": 11,
+      "startAngle": -0.7,
+      "endAngle": 20.215
+    },
+    {
+      "name": "Litus Rupinues",
+      "angle": 58,
+      "startAngle": 42.01,
+      "endAngle": 68.73
+    },
+    {
+      "name": "Alba Saxa",
+      "angle": 96.5,
+      "startAngle": 82.62,
+      "endAngle": 116.01
+    },
+	{
+      "name": "Insula Glacialis",
+      "angle": 138.87,
+      "startAngle": 129.02,
+      "endAngle": 148.71
+    },
+	{
+      "name": "Planum Niveum",
+      "angle": 223.24,
+      "startAngle": 213.4,
+      "endAngle": 233.438
+    }]
+}

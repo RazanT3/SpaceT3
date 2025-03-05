@@ -1,0 +1,85 @@
+{
+  "version": "1.5",
+  "BASE_DATA": {
+    "radius": 23206,
+    "gravity": 0.189,
+    "timewarpHeight": 3000,
+    "mapColor": {
+      "r": 0.56,
+      "g": 0.494,
+      "b": 0.42,
+      "a": 1
+    },
+    "significant": false,
+    "rotateCamera": true
+  },
+  "TERRAIN_DATA": {
+    "TERRAIN_TEXTURE_DATA": {
+      "planetTexture": "Orcus",
+      "planetTextureCutout": 1,
+      "surfaceTexture_A": "Ice",
+      "surfaceTextureSize_A": {
+        "x": -70,
+        "y": -25
+      },
+      "surfaceTexture_B": "Soft_Rocks",
+      "surfaceTextureSize_B": {
+        "x": 70,
+        "y": 25
+      },
+      "terrainTexture_C": "Ice",
+      "terrainTextureSize_C": {
+        "x": -320,
+        "y": -200
+      },
+      "surfaceLayerSize": 150,
+      "minFade": 0,
+      "maxFade": 1,
+      "shadowIntensity": 5,
+      "shadowHeight": 15
+    },
+    "terrainFormulaDifficulties": {
+      "normal": [
+      "OUTPUT = AddHeightMap( Mountes.png,31700, 307)",
+        "OUTPUT = AddHeightMap(Craters, 24650, 200)"
+    ],
+      "hard": [
+      "OUTPUT = AddHeightMap( Mountes.png, 63400, 600)",
+        "OUTPUT = AddHeightMap(Craters, 49300, 400)"
+      ],
+      "realistic": [
+      "OUTPUT = AddHeightMap( Mountes.png, 634000, 6000)",
+	  "OUTPUT = AddHeightMap( cons.txt, 8503660, 8500)",
+        "OUTPUT = AddHeightMap(Craters, 493000, 4000)"
+      ]
+    },
+    "textureFormula": [],
+    "verticeSize": 2,
+    "collider": true,
+	"rocks":
+     {
+      "rockType": "Rock Square",
+      "rockDensity": 0.8,
+      "minSize": 0.2,
+      "maxSize": 0.8,
+      "powerCurve": 30,
+      "maxAngle": 40
+    }
+  },
+  "ORBIT_DATA": {
+    "parent": "Sun",
+    "semiMajorAxis": 292721000000,
+    "eccentricity": 0.221,
+    "argumentOfPeriapsis": 73,
+    "direction": 1,
+    "multiplierSOI": 8,
+  },
+  "ACHIEVEMENT_DATA": {
+    "Landed": true,
+    "Takeoff": true,
+    "Atmosphere": false,
+    "Orbit": true,
+    "Crash": true
+  },
+  "LANDMARKS": []
+}

@@ -1,0 +1,278 @@
+{
+  "version": "1.5",
+  "BASE_DATA": {
+    "radius": 128735,
+    "gravity": 1.35,
+    "timewarpHeight": 40000,
+    "mapColor": {
+      "r": 0.808,
+      "g": 0.643,
+      "b": 0.322, 
+      "a": 1
+    }
+  },
+  "ATMOSPHERE_PHYSICS_DATA": {
+    "height": 44400,
+    "heightDifficultyScale": {"hard": 1, "realistic": 3.34},
+    "density": 0.0075,
+    "curve": 11.5,
+    "parachuteMultiplier": 1,
+    "upperAtmosphere": 0.3003,
+    "shockwaveIntensity": 1,
+    "startHeatingVelocityMultiplier": 1
+  },
+  "ATMOSPHERE_VISUALS_DATA": {
+    "GRADIENT": {
+      "positionZ": 4000,
+      "height": 49950,
+      "texture": "None"
+    },
+    "CLOUDS": {
+      "texture": "Earth_Clouds",
+      "startHeight": 15000,
+      "width": 10000,
+      "height": 27000,
+      "alpha": 0.15,
+      "velocity": 2
+    },
+    "FOG": {
+      "keys": [
+        {
+          "color": {
+            "r": 0.72,
+            "g": 0.57,
+            "b": 0.325,
+            "a": 0.3
+          },
+          "distance": 18000
+        },
+        {
+          "color": {
+            "r": 0.8,
+            "g": 0.637,
+            "b": 0.366,
+            "a": 0.835
+          },
+          "distance": 120000
+        }
+      ]
+    }
+  },
+  "TERRAIN_DATA": {
+    "TERRAIN_TEXTURE_DATA": {
+      "planetTexture": "Titan",
+      "planetTextureCutout": 0.99,
+      "surfaceTexture_A": "Soft_Rocks",
+      "surfaceTextureSize_A": {
+        "x": -82,
+        "y": -70
+      },
+      "surfaceTexture_B": "Soft_Rocks",
+      "surfaceTextureSize_B": {
+        "x": 48,
+        "y": 20
+      },
+      "terrainTexture_C": "Blured",
+      "terrainTextureSize_C": {
+        "x": 1000,
+        "y": 650
+      },
+      "surfaceLayerSize": 400,
+      "minFade": 0,
+      "maxFade": 1,
+      "shadowIntensity": 5,
+      "shadowHeight": 15
+    },
+    "terrainFormulaDifficulties": {
+      "normal": [
+      "MENRVA = AddHeightMap( Menrva.png, 808865.86, 1)",
+      "CONS = AddHeightMap( cons.txt, 808865.86, 1, null, MENRVA)",
+      "OUTPUT = AddHeightMap( Menrva_Cons.png, 20221.65, 70, null, CONS)",
+      "OUTPUT = AddHeightMap( Menrva_Pros.png, 20221.65, 40, null, MENRVA)",
+      "OUTPUT = AddHeightMap( Perlin, 66289, 75)",
+      "OUTPUT = AddHeightMap( Perlin, 32783, 35)",
+      "M = AddHeightMap( test4.png, 8088658, 1)",
+	  "N = AddHeightMap( test5.png, 8088658, 1)",
+      "OUTPUT = AddHeightMap( Dunes.png, 800, 7, null, N)",
+      "OUTPUT = AddHeightMap( Perlin, 104432.5, 1250, null, M)"
+    ],
+	"hard": [
+      "MENRVA = AddHeightMap( Menrva.png, 1617731.72, 1)",
+      "CONS = AddHeightMap( cons.txt, 1617731.72, 1, null, MENRVA)",
+      "OUTPUT = AddHeightMap( Menrva_Cons.png, 40443.3, 90, null, CONS)",
+      "OUTPUT = AddHeightMap( Menrva_Pros.png, 40443.3, 70, null, MENRVA)",
+      "OUTPUT = AddHeightMap( Perlin, 66249, 75)",
+      "OUTPUT = AddHeightMap( Perlin, 32783, 35)",
+      "M = AddHeightMap( test4.png, 1617731.72, 1)",
+	  "N = AddHeightMap( test5.png, 1617731.72, 1)",
+      "OUTPUT = AddHeightMap( Dunes.png, 800, 7, null, N)",
+      "OUTPUT = AddHeightMap( Perlin, 208865, 2500, null, M)"
+    ],
+	"realistic": [
+      "MENRVA = AddHeightMap( Menrva.png, 16177317.2, 1)",
+      "CONS = AddHeightMap( cons.txt, 16177317.2, 1, null, MENRVA)",
+      "OUTPUT = AddHeightMap( Menrva_Cons.png, 404433, 750, null, CONS)",
+      "OUTPUT = AddHeightMap( Menrva_Pros.png, 404433, 510, null, MENRVA)",
+      "OUTPUT = AddHeightMap( Perlin, 66249, 75)",
+      "OUTPUT = AddHeightMap( Perlin, 32783, 35)",
+      "M = AddHeightMap( test4.png, 16177317.2, 1)",
+	  "N = AddHeightMap( test5.png, 16177317.2, 1)",
+      "OUTPUT = AddHeightMap( Dunes.png, 800, 7, null, N)",
+      "OUTPUT = AddHeightMap( Perlin, 2088650, 5000, null, M)"
+    ]
+    },
+    "textureFormula": [],
+    "verticeSize": 1,
+    "collider": true,
+	"rocks":
+		{
+		    "rockType":"Rock Square",
+		    "rockDensity":0.85,
+		    "minSize":0.16,
+		    "maxSize":0.8,
+		    "powerCurve":3,
+		    "maxAngle":35
+		}
+  },
+  "POST_PROCESSING": {
+    "keys": [
+      {
+        "height": 0,
+        "shadowIntensity": 1.35,
+        "starIntensity": 0,
+        "hueShift": 0,
+        "saturation": 0.95,
+        "contrast": 1.2,
+        "red": 1.03,
+        "green": 1.02,
+        "blue": 1
+      },
+      {
+        "height": 1000,
+        "shadowIntensity": 1.5,
+        "starIntensity": 0,
+        "hueShift": 0,
+        "saturation": 0.95,
+        "contrast": 1.2,
+        "red": 1,
+        "green": 1,
+        "blue": 1
+      },
+      {
+        "height": 3600,
+        "shadowIntensity": 1.75,
+        "starIntensity": 0,
+        "hueShift": 0,
+        "saturation": 0.95,
+        "contrast": 1.2,
+        "red": 1,
+        "green": 1,
+        "blue": 1
+      },
+      {
+        "height": 5600,
+        "shadowIntensity": 1.75,
+        "starIntensity": 0,
+        "hueShift": 0,
+        "saturation": 0.95,
+        "contrast": 1.2,
+        "red": 1,
+        "green": 1,
+        "blue": 1
+      },
+      {
+        "height": 7000,
+        "shadowIntensity": 1.75,
+        "starIntensity": 1,
+        "hueShift": 0,
+        "saturation": 0.95,
+        "contrast": 1.2,
+        "red": 1,
+        "green": 1,
+        "blue": 1
+      }
+    ]
+  },
+  "ORBIT_DATA": {
+    "parent": "Saturn",
+    "semiMajorAxis": 48874800,
+    "smaDifficultyScale": {
+      "normal": 1,
+      "hard": 2.5,
+      "realistic": 25
+    },
+    "eccentricity": 0.03,
+    "argumentOfPeriapsis": 0,
+    "direction": 1,
+    "multiplierSOI": 2
+  },
+  "ACHIEVEMENT_DATA": {
+    "Landed": true,
+    "Takeoff": true,
+    "Atmosphere": true,
+    "Orbit": true,
+    "Crash": true
+  },
+  "LANDMARKS": [
+    {
+      "name": "Senkyo",
+      "angle": 320,
+      "startAngle": 300,
+      "endAngle": 340
+    },
+	{
+      "name": "Belet",
+      "angle": 5.5,
+      "startAngle": -22,
+      "endAngle": 33
+    },
+    {
+      "name": "Adiri",
+      "angle": 53,
+      "startAngle": 33,
+      "endAngle": 73
+    },
+	{
+      "name": "Shangri-La",
+      "angle": 93,
+      "startAngle": 73,
+      "endAngle": 113
+    },
+	{
+      "name": "Xanadu",
+      "angle": 158,
+      "startAngle": 113,
+      "endAngle": 223
+    },
+	{
+      "name": "Menrva Crater",
+      "angle": 193.5,
+      "startAngle": 189,
+      "endAngle": 198
+    },
+	{
+      "name": "Fensal",
+      "angle": 231.5,
+      "startAngle": 223,
+      "endAngle": 240
+    },
+	{
+      "name": "Quivira",
+      "angle": 255,
+      "startAngle": 240,
+      "endAngle": 270
+    },
+	{
+      "name": "Aztlan",
+      "angle": 280,
+      "startAngle": 270,
+      "endAngle": 290
+    },
+	{
+      "name": "Garotman Terra",
+      "angle": 295,
+      "startAngle": 290,
+      "endAngle": 300
+    }
+	]
+}

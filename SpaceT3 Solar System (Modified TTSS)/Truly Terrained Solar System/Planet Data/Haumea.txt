@@ -1,0 +1,97 @@
+{
+  "version": "1.5",
+  "BASE_DATA": {
+    "radius": 28450,
+    "gravity": 0.44,
+    "timewarpHeight": 3000,
+    "mapColor": {
+      "r": 0.65,
+      "g": 0.65,
+      "b": 0.65,
+      "a": 1
+    }
+  },
+  "TERRAIN_DATA": {
+    "TERRAIN_TEXTURE_DATA": {
+      "planetTexture": "Haumea",
+      "planetTextureCutout": 0.9,
+      "surfaceTexture_A": "Ice",
+      "surfaceTextureSize_A": {
+        "x": -70,
+        "y": -25
+      },
+      "surfaceTexture_B": "Soft_Rocks",
+      "surfaceTextureSize_B": {
+        "x": 70,
+        "y": 25
+      },
+      "terrainTexture_C": "Ice",
+      "terrainTextureSize_C": {
+        "x": -320,
+        "y": -200
+      },
+      "surfaceLayerSize": 60,
+      "minFade": 0,
+      "maxFade": 1,
+      "shadowIntensity": 5,
+      "shadowHeight": 15
+    },
+    "terrainFormulaDifficulties": {
+      "normal": [
+	  "OUTPUT = AddHeightMap(test2.png, 178756.6, 7400)",
+	  "OUTPUT = AddHeightMap(cons.txt, 178756.6, 7400)",
+      "OUTPUT = AddHeightMap(Mountes.png, 15500, 200)",
+	  "OUTPUT = AddHeightMap(Craters, 25000, 100)",
+	  "OUTPUT = AddHeightMap(Craters, 5000, 35)"
+    ],
+      "hard": [
+	  "OUTPUT = AddHeightMap(test2.png, 357513.2, 14800)",
+	  "OUTPUT = AddHeightMap(cons.txt, 357513.2, 14800)",
+      "OUTPUT = AddHeightMap(Mountes.png, 31000, 400)",
+	  "OUTPUT = AddHeightMap(Craters, 50000, 200)",
+	  "OUTPUT = AddHeightMap(Craters, 10000, 70)"
+      ],
+      "realistic": [
+	  "OUTPUT = AddHeightMap(test2.png, 3575132, 148000)",
+	  "OUTPUT = AddHeightMap(cons.txt, 3575132, 154000)",
+      "OUTPUT = AddHeightMap(Mountes.png, 310000, 4000)",
+	  "OUTPUT = AddHeightMap(Craters, 500000, 2000)",
+	  "OUTPUT = AddHeightMap(Craters, 100000, 700)"
+	  ]
+    },
+    "textureFormula": [],
+    "verticeSize": 0.1,
+    "collider": true,
+	"rocks":
+     {
+      "rockType": "Rock Square",
+      "rockDensity": 0.8,
+      "minSize": 0.2,
+      "maxSize": 0.8,
+      "powerCurve": 30,
+      "maxAngle": 40
+    }
+  },
+  "ORBIT_DATA": {
+    "parent": "Sun",
+    "semiMajorAxis": 323782749800,
+    "eccentricity": 0.196,
+    "argumentOfPeriapsis": 239,
+    "direction": 1,
+    "multiplierSOI": 1.25
+  },
+  "ACHIEVEMENT_DATA": {
+    "Landed": true,
+    "Takeoff": true,
+    "Atmosphere": false,
+    "Orbit": true,
+    "Crash": true
+  },
+  "LANDMARKS": [
+  {
+      "name": "Dark Red Spot",
+      "angle": 21,
+      "startAngle": -30,
+      "endAngle": 35
+    }]
+}

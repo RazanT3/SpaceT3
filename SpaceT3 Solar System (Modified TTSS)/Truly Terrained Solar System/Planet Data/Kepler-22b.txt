@@ -1,0 +1,176 @@
+﻿{
+  "version": "1.5",
+  "BASE_DATA": {
+    "radius": 661500,
+    "gravity": 20.7,
+    "timewarpHeight": 15000,
+    "velocityArrowsHeight": 5000,
+    "mapColor": {
+      "r": 0.37,
+      "g": 0.5,
+      "b": 0.66,
+      "a": 1
+    }
+  },
+  "ATMOSPHERE_PHYSICS_DATA": {
+    "height": 100000,
+    "density": 0.025,
+    "curve": 15,
+    "parachuteMultiplier": 3,
+    "upperAtmosphere": 0.3,
+    "shockwaveIntensity": 0.5,
+    "minHeatingVelocityMultiplier": 1,
+	"hasOxygen": true
+  },
+  "ATMOSPHERE_VISUALS_DATA": {
+    "GRADIENT": {
+      "positionZ": 4000,
+      "height": 200000,
+      "texture": "Atmo_Earth"
+    },
+    "CLOUDS": {
+      "texture": "Earth_Clouds",
+      "startHeight": -500,
+      "height": 38000,
+      "width": 40845.87,
+      "alpha": 0.3,
+      "velocity": 100
+    },
+    "FOG": {
+      "keys": [
+        {
+          "color": {
+            "r": 0.461872876,
+            "g": 0.463235319,
+            "b": 0.3644572,
+            "a": 0.09803922
+          },
+          "distance": 1000
+        },
+        {
+          "color": {
+            "r": 0.647058845,
+            "g": 0.848739564,
+            "b": 0.891,
+            "a": 0.317647059
+          },
+          "distance": 6000
+        },
+        {
+          "color": {
+            "r": 0.647058845,
+            "g": 0.848739564,
+            "b": 1,
+            "a": 0.55
+          },
+          "distance": 60000
+        }
+      ]
+    }
+  },
+  "TERRAIN_DATA": {
+    "TERRAIN_TEXTURE_DATA": {
+      "planetTexture": "K22b",
+      "planetTextureCutout": 1,
+      "surfaceTexture_A": "Blured",
+      "surfaceTextureSize_A": {
+        "x": 20,
+        "y": 8
+      },
+      "surfaceTexture_B": "None",
+      "surfaceTextureSize_B": {
+        "x": -1,
+        "y": -1
+      },
+      "terrainTexture_C": "Blured",
+      "terrainTextureSize_C": {
+        "x": 100,
+        "y": 30
+      },
+      "surfaceLayerSize": 40,
+      "minFade": 0,
+      "maxFade": 1,
+      "shadowIntensity": 3,
+      "shadowHeight": 15
+    },
+    "terrainFormulaDifficulties": {
+      "normal": [
+        "SEA = AddHeightMap(SEA_K22b.png, 4156327, 1)",
+        "OUTPUT = AddHeightMap(cons.txt, 4156327, 400, null, SEA)",
+        "RUINS = AddHeightMap(RuinsK22b.png, 4156327, 1)",
+		"OUTPUT = AddHeightMap(Ruins940x83.png,4051,250, null, RUINS)",
+        "ALTAR = AddHeightMap(AltarK22b.png, 4156327, 1)",
+		"OUTPUT = AddHeightMap(Altar.png,4051,450, null, ALTAR)",
+        "OUTPUT = AddHeightMap(Perlin,18957.8, 20)",
+        "OUTPUT = AddHeightMap(Perlin,2451.6, 5)",
+        "OUTPUT = AddHeightMap(Perlin,1319.2, 1)"
+      ],
+	  "hard": [
+        "SEA = AddHeightMap(SEA_K22b.png, 8312654, 1)",
+        "OUTPUT = AddHeightMap(cons.txt, 8312654, 800, null, SEA)",
+        "RUINS = AddHeightMap(RuinsK22b.png, 8312654, 1)",
+		"OUTPUT = AddHeightMap(Ruins940x83.png,8102,500, null, RUINS)",
+        "ALTAR = AddHeightMap(AltarK22bHard.png, 8312654, 1)",
+		"OUTPUT = AddHeightMap(Altar.png,4051,450, null, ALTAR)",
+        "OUTPUT = AddHeightMap(Perlin,37915.6, 40)",
+        "OUTPUT = AddHeightMap(Perlin,4903.2, 10)",
+        "OUTPUT = AddHeightMap(Perlin,2638.4, 2)"
+      ],
+	  "realistic": [
+        "SEA = AddHeightMap(SEA_K22b.png, 83126540, 1)",
+        "OUTPUT = AddHeightMap(cons.txt, 83126540, 8000, null, SEA)",
+        "RUINS = AddHeightMap(RuinsK22b.png, 83126540, 1)",
+		"OUTPUT = AddHeightMap(Ruins940x83.png,8102,500, null, RUINS)",
+        "ALTAR = AddHeightMap(AltarK22b.png, 83126540, 1)",
+		"OUTPUT = AddHeightMap(Altar.png,81020,4500, null, ALTAR)",
+        "OUTPUT = AddHeightMap(Perlin,37915.6, 40)",
+        "OUTPUT = AddHeightMap(Perlin,4903.2, 10)",
+        "OUTPUT = AddHeightMap(Perlin,2638.4, 2)"
+      ],
+    },
+    "textureFormula": [],
+    "verticeSize": 0.15,
+    "collider": true,
+    "flatZones": []
+  },
+  "ORBIT_DATA": {
+    "parent": "Kepler-22",
+    "semiMajorAxis": 6073673550,
+    "eccentricity": 0,
+    "argumentOfPeriapsis": 130,
+    "direction": 1,
+    "multiplierSOI": 2.5
+  },
+  "ACHIEVEMENT_DATA": {
+    "Landed": false,
+    "Takeoff": true,
+    "Atmosphere": true,
+    "Orbit": true,
+    "Crash": true
+  },
+  "LANDMARKS": [
+    {
+      "name": "Land",
+      "angle": 212.87,
+      "startAngle": 208.65,
+      "endAngle": 217.09
+    },
+    {
+      "name": "Land of Sacrifice",
+      "angle": 206.32,
+      "startAngle": 205.13,
+      "endAngle": 207.77
+    },
+    {
+      "name": "Land",
+      "angle": 183.865,
+      "startAngle": 181.05,
+      "endAngle": 186.68
+    },
+    {
+      "name": "Land of Abadon",
+      "angle": 35,
+      "startAngle": 21.8,
+      "endAngle": 45.17
+    }]
+}

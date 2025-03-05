@@ -1,0 +1,127 @@
+{
+  "version": "1.5",
+  "BASE_DATA": {
+    "radius": 23459.5,
+    "gravity": 0.27,
+    "timewarpHeight": 4000,
+    "mapColor": {
+      "r": 0.375,
+      "g": 0.3805147,
+      "b": 0.3805147,
+      "a": 1
+    }
+  },
+  "TERRAIN_DATA": {
+    "TERRAIN_TEXTURE_DATA": {
+      "planetTexture": "Ceres",
+      "planetTextureCutout": 0.999,
+      "surfaceTexture_A": "Dark_Dust",
+      "surfaceTextureSize_A": {
+        "x": 20,
+        "y": 8
+      },
+      "surfaceTexture_B": "Hard_Rocks",
+      "surfaceTextureSize_B": {
+        "x": 40,
+        "y": 16
+      },
+      "terrainTexture_C": "Soft_Rocks",
+      "terrainTextureSize_C": {
+        "x": 280,
+        "y": 145
+      },
+      "surfaceLayerSize": 50,
+      "minFade": 0,
+      "maxFade": 1,
+      "shadowIntensity": 5,
+      "shadowHeight": 5
+    },
+    "terrainFormulaDifficulties": {
+      "normal": [
+		"M = AddHeightMap(cons.txt, 147397.205, 1)",
+        "OUTPUT = AddHeightMap(CeresDowns.png, 147397.205, 400, null, M)",
+		"OUTPUT = AddHeightMap(CeresAhunaMons.png, 147397.205, 200)",
+        "OUTPUT = AddHeightMap(Craters, 50700, 275)",
+        "OUTPUT = AddHeightMap(Craters, 6500, 35)",
+        "OUTPUT = AddHeightMap(Perlin, 39668, 180)",
+        "OUTPUT = AddHeightMap(Perlin, 3011, 10)"
+      ],
+      "hard": [
+		"M = AddHeightMap(cons.txt, 294794.41, 1)",
+        "OUTPUT = AddHeightMap(CeresDowns.png, 294794.41, 800, null, M)",
+		"OUTPUT = AddHeightMap(CeresAhunaMons.png, 294794.41, 400)",
+        "OUTPUT = AddHeightMap(Craters, 101400, 550)",
+        "OUTPUT = AddHeightMap(Craters, 13000, 70)",
+        "OUTPUT = AddHeightMap(Perlin, 79336, 360)",
+        "OUTPUT = AddHeightMap(Perlin, 6022, 20)"
+      ],
+      "realistic": [
+	    "OUTPUT = AddHeightMap(cons.txt, 343061.9, 7600)",
+		"M = AddHeightMap(cons.txt, 2947944.1, 1)",
+        "OUTPUT = AddHeightMap(CeresDowns.png, 2947944.1, 8000, null, M)",
+		"OUTPUT = AddHeightMap(CeresAhunaMons.png, 2947944.1, 4000)",
+        "OUTPUT = AddHeightMap(Craters, 1014000, 5500)",
+        "OUTPUT = AddHeightMap(Craters, 130000, 700)",
+        "OUTPUT = AddHeightMap(Perlin, 793360, 3600)",
+        "OUTPUT = AddHeightMap(Perlin, 60220, 200)"
+      ]
+    },
+    "textureFormula": [],
+    "verticeSize": 0.25,
+    "collider": true,
+    "rocks": {
+      "rockType": "Rock Square",
+      "rockDensity": 0.7,
+      "minSize": 0.25,
+      "maxSize": 0.8,
+      "powerCurve": 2.5,
+      "maxAngle": 30
+    }
+  },
+  "ORBIT_DATA": {
+    "parent": "Sun",
+    "semiMajorAxis": 20719305091.95,
+    "eccentricity": 0.08,
+    "argumentOfPeriapsis": 2,
+    "direction": 1,
+    "multiplierSOI": 1.5
+  },
+  "ACHIEVEMENT_DATA": {
+    "Landed": true,
+    "Takeoff": true,
+    "Atmosphere": false,
+    "Orbit": true,
+    "Crash": true
+  },
+  "LANDMARKS": [
+  {
+      "name": "Yalode Crater",
+      "angle": 290,
+      "startAngle": 270,
+      "endAngle": 310
+    },
+	{
+      "name": "Geshtin Crater",
+      "angle": 99,
+      "startAngle": 92,
+      "endAngle": 106
+    },
+	{
+      "name": "Datan Crater",
+      "angle": 111,
+      "startAngle": 106,
+      "endAngle": 116
+    },
+	{
+      "name": "Fejokoo Crater",
+      "angle": 23,
+      "startAngle": 18,
+      "endAngle": 28
+    },
+	{
+      "name": "Ahuna Mons",
+      "angle": 345.45,
+      "startAngle": 344.3,
+      "endAngle": 346.6
+    }]
+}

@@ -1,0 +1,66 @@
+{
+  "version": "1.5",
+  "BASE_DATA": {
+    "radius": 15375,
+    "gravity": 0.06,
+    "timewarpHeight": 1000,
+    "mapColor": {
+      "r": 0.44,
+      "g": 0.39,
+      "b": 0.34,
+      "a": 1
+    }
+  },
+  "TERRAIN_DATA": {
+    "TERRAIN_TEXTURE_DATA": {
+      "planetTexture": "Ixion",
+      "planetTextureCutout": -0.5,
+      "surfaceTexture_A": "Ice",
+      "surfaceTextureSize_A": {
+        "x": -70,
+        "y": -25
+      },
+      "surfaceTexture_B": "Soft_Rocks",
+      "surfaceTextureSize_B": {
+        "x": 70,
+        "y": 25
+      },
+      "terrainTexture_C": "Ice",
+      "terrainTextureSize_C": {
+        "x": -320,
+        "y": -200
+      },
+      "surfaceLayerSize": 150,
+      "minFade": 0,
+      "maxFade": 1,
+      "shadowIntensity": 5,
+      "shadowHeight": 15
+    },
+    "terrainFormulaDifficulties": {
+      "normal": [
+	  "CONS = AddHeightMap(cons.txt, 96603, 1)",
+      "OUTPUT = AddHeightMap(Arrokoth_Cons.png, 32201, 400, null, CONS)",
+	  "OUTPUT = AddHeightMap(Craters, 32201, 140)"]
+    },
+    "textureFormula": [],
+    "verticeSize": 2,
+    "collider": true,
+    "flatZones": []
+  },
+  "ORBIT_DATA": {
+    "parent": "Eris",
+    "semiMajorAxis": 1863650,
+    "eccentricity": 0.0062,
+    "argumentOfPeriapsis": 180.83,
+    "direction": 1,
+    "multiplierSOI": 1
+  },
+  "ACHIEVEMENT_DATA": {
+    "Landed": true,
+    "Takeoff": true,
+    "Atmosphere": false,
+    "Orbit": true,
+    "Crash": true
+  },
+  "LANDMARKS": []
+}

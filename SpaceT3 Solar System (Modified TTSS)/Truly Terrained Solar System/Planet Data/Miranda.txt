@@ -1,0 +1,141 @@
+{
+  "version": "1.5",
+  "BASE_DATA": {
+    "radius": 11790,
+    "gravity": 0.079,
+    "timewarpHeight": 2000,
+    "mapColor": {
+      "r": 0.486,
+      "g": 0.431,
+      "b": 0.412,
+      "a": 1
+    }
+  },
+  "TERRAIN_DATA": {
+    "TERRAIN_TEXTURE_DATA": {
+      "planetTexture": "Miranda",
+      "planetTextureCutout": 1,
+      "surfaceTexture_A": "Ice",
+      "surfaceTextureSize_A": {
+        "x": -70,
+        "y": -25
+      },
+      "surfaceTexture_B": "Soft_Rocks",
+      "surfaceTextureSize_B": {
+        "x": 70,
+        "y": 25
+      },
+      "terrainTexture_C": "Ice",
+      "terrainTextureSize_C": {
+        "x": 320,
+        "y": 200
+      },
+      "surfaceLayerSize": 100,
+      "minFade": 0,
+      "maxFade": 1,
+      "shadowIntensity": 4,
+      "shadowHeight": 5
+    },
+    "terrainFormulaDifficulties": {
+      "normal": [
+	  "M2 = AddHeightMap( Cr.png, 74078.755, 1)",
+	  "M = AddHeightMap( C.txt, 74078.755, 1)",
+	  "M1 = AddHeightMap( C1.txt, 74078.755, 1)",
+	  "OUTPUT = AddHeightMap( Craters, 14095, 200, null, M2)",
+	  "OUTPUT = AddHeightMap( Canyd.png, 2263.755, 650, null, M)",
+	  "OUTPUT = AddHeightMap( Canyd1.png, 1646.755, 450, null, M1)",
+      "OUTPUT = AddHeightMap( Miranda.txt,74078.755, 1490.1)",
+      "OUTPUT = AddHeightMap( Perlin,8652, 15)",
+      "OUTPUT = AddHeightMap( Perlin,2594, 5)",
+      "OUTPUT = AddHeightMap( Perlin,1288, 5)"
+    ], "hard": [
+	  "M2 = AddHeightMap( Cr.png, 148156.1, 1)",
+	  "M = AddHeightMap( C.txt, 148156.1, 1)",
+	  "M1 = AddHeightMap( C1.txt, 148156.1, 1)",
+	  "OUTPUT = AddHeightMap( Craters, 28190, 400, null, M2)",
+	  "OUTPUT = AddHeightMap( Canyd.png, 4526, 1300, null, M)",
+	  "OUTPUT = AddHeightMap( Canyd1.png, 3292, 700, null, M1)",
+      "OUTPUT = AddHeightMap( Miranda.txt,148156.1, 2980.2)",
+      "OUTPUT = AddHeightMap( cons.txt,148156.1, 1200)",
+      "OUTPUT = AddHeightMap( Perlin,8652, 15)",
+      "OUTPUT = AddHeightMap( Perlin,2594, 5)",
+      "OUTPUT = AddHeightMap( Perlin,1288, 5)"
+    ], "realistic": [
+	  "M2 = AddHeightMap( Cr.png, 1481561, 1)",
+	  "M = AddHeightMap( C.txt, 1481561, 1)",
+	  "M1 = AddHeightMap( C1.txt, 1481561, 1)",
+	  "OUTPUT = AddHeightMap( Craters, 281900, 4000, null, M2)",
+	  "OUTPUT = AddHeightMap( Canyd.png, 45260, 13000, null, M)",
+	  "OUTPUT = AddHeightMap( Canyd1.png, 32920, 7000, null, M1)",
+      "OUTPUT = AddHeightMap( Miranda.txt,1481561, 29269)",
+      "OUTPUT = AddHeightMap( cons.txt,1481561, 16000)",
+      "OUTPUT = AddHeightMap( Perlin,8652, 15)",
+      "OUTPUT = AddHeightMap( Perlin,2594, 5)",
+      "OUTPUT = AddHeightMap( Perlin,1288, 5)"
+    ]
+    },
+    "textureFormula": [],
+    "verticeSize": 0.1,
+    "collider": true,
+	"rocks":
+        {
+      "rockType": "Rock Square",
+      "rockDensity": 1.15,
+      "minSize": 0.3,
+      "maxSize": 0.9,
+      "powerCurve": 30,
+      "maxAngle": 45
+    }
+  },
+  "ORBIT_DATA": {
+    "parent": "Uranus",
+    "semiMajorAxis": 5196000,
+    "smaDifficultyScale": {
+      "normal": 1,
+      "hard": 2.5,
+      "realistic": 25
+    },
+    "eccentricity": 0.01,
+    "argumentOfPeriapsis": 0,
+    "direction": 1,
+    "multiplierSOI": 3
+  },
+  "ACHIEVEMENT_DATA": {
+    "Landed": true,
+    "Takeoff": true,
+    "Atmosphere": false,
+    "Orbit": true,
+    "Crash": true
+  },
+  "LANDMARKS": [
+  {
+      "name": "Arden Coronae",
+      "angle": 121.5,
+      "startAngle": 86,
+      "endAngle": 157
+	  },
+  {
+      "name": "Rupes of Arden Coronae",
+      "angle": 90,
+      "startAngle": 86,
+      "endAngle": 94
+	  },
+	  {
+      "name": "Verona Rupes",
+      "angle": 212.5,
+      "startAngle": 207,
+      "endAngle": 218
+	  },
+	  {
+      "name": "Elsinore Coronae",
+      "angle": 296.5,
+      "startAngle": 260,
+      "endAngle": 333
+	  },
+	  {
+      "name": "Sicilia Regio",
+      "angle": 239.5,
+      "startAngle": 219,
+      "endAngle": 260
+	  }]
+}

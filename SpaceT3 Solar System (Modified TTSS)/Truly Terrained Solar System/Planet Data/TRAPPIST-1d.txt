@@ -1,0 +1,185 @@
+﻿{
+  "version": "1.5",
+  "BASE_DATA": {
+    "radius": 251029,
+    "gravity": 6.111,
+    "timewarpHeight": 20000,
+    "velocityArrowsHeight": 5000,
+    "mapColor": {
+      "r": 0.36,
+      "g": 0.31,
+      "b": 0.27,
+      "a": 1
+    }
+  },
+  "ATMOSPHERE_PHYSICS_DATA": {
+    "height": 25000,
+    "density": 0.01,
+    "curve": 10,
+    "parachuteMultiplier": 1,
+    "upperAtmosphere": 0.3,
+    "shockwaveIntensity": 1,
+    "minHeatingVelocityMultiplier": 1,
+	"hasOxygen": true
+  },
+  "ATMOSPHERE_VISUALS_DATA": {
+    "GRADIENT": {
+      "positionZ": -4000,
+      "height": 25000,
+      "texture": "Atmo_PCc"
+    },
+    "CLOUDS": {
+      "texture": "Earth_Clouds",
+      "startHeight": -500,
+      "height": 36000,
+      "width": 40845.87,
+      "alpha": 0.05,
+      "velocity": 0.75
+    },
+    "FOG": {
+      "keys": [
+        {
+          "color": {
+            "r": 0.461872876,
+            "g": 0.463235319,
+            "b": 0.3644572,
+            "a": 0.09803922
+          },
+          "distance": 500
+        },
+        {
+          "color": {
+            "r": 0.647058845,
+            "g": 0.848739564,
+            "b": 0.891,
+            "a": 0.317647059
+          },
+          "distance": 3000
+        },
+        {
+          "color": {
+            "r": 0.647058845,
+            "g": 0.848739564,
+            "b": 1,
+            "a": 0.516
+          },
+          "distance": 30000
+        }
+      ]
+    }
+  },
+  "TERRAIN_DATA": {
+    "TERRAIN_TEXTURE_DATA": {
+      "planetTexture": "TRAPPIST-1d",
+      "planetTextureCutout": 1,
+      "surfaceTexture_A": "Blured",
+      "surfaceTextureSize_A": {
+        "x": 20,
+        "y": 8
+      },
+      "surfaceTexture_B": "None",
+      "surfaceTextureSize_B": {
+        "x": -1,
+        "y": -1
+      },
+      "terrainTexture_C": "Blured",
+      "terrainTextureSize_C": {
+        "x": 100,
+        "y": 30
+      },
+      "surfaceLayerSize": 40,
+      "minFade": 0,
+      "maxFade": 1,
+      "shadowIntensity": 6,
+      "shadowHeight": 15
+    },
+    "terrainFormulaDifficulties": {
+      "normal": [
+        "SEA = AddHeightMap(SEA_T1d.png, 1577261, 1)",
+         "OUTPUT = AddHeightMap(cons.txt, 1577261, 400, null, SEA)",
+	    "DNS = AddHeightMap(T1dDns.png,1577261, 1)",
+         "OUTPUT = AddHeightMap( Dunes.png,  400, 4, null, DNS)",
+	    "MNT = AddHeightMap(T1dMnt.png,1577261, 1)",
+         "MNT1 = AddHeightMap( Io,15000, 1, null, MNT)",
+          "OUTPUT = AddHeightMap(Mountes.png,22563, 700, null, MNT1)",
+		"CONS = AddHeightMap(cons.txt,1577261,1)",
+		 "OUTPUT = AddHeightMap(T1dCrt.png,1577261, 568, null, CONS)",
+	    "CRT = AddHeightMap(T1dCrt.png,1577261, 1)",
+         "OUTPUT = AddHeightMap(Craters,117567, 568, null, CRT)",
+         "OUTPUT = AddHeightMap(Craters,63822, 341, null, CRT)",
+         "OUTPUT = AddHeightMap(Craters,3270, 17.5, null, CRT)",
+        "OUTPUT = AddHeightMap(Perlin,18957.8, 20)",
+        "OUTPUT = AddHeightMap(Perlin,2451.6, 5)",
+        "OUTPUT = AddHeightMap(Perlin,1319.2, 1)"
+      ],
+	  "hard": [
+        "SEA = AddHeightMap(SEA_T1d.png, 3154523, 1)",
+         "OUTPUT = AddHeightMap(cons.txt, 3154523, 800, null, SEA)",
+	    "DNS = AddHeightMap(T1dDns.png,3154523, 1)",
+         "OUTPUT = AddHeightMap( Dunes.png,  400, 4, null, DNS)",
+	    "MNT = AddHeightMap(T1dMnt.png,3154523, 1)",
+         "MNT1 = AddHeightMap( Io,30000, 1, null, MNT)",
+          "OUTPUT = AddHeightMap(Mountes.png,22563, 1400, null, MNT1)",
+		"CONS = AddHeightMap(cons.txt,3154523,1)",
+		 "OUTPUT = AddHeightMap(T1dCrt.png,3154523, 1136, null, CONS)",
+	    "CRT = AddHeightMap(T1dCrt.png,3154523, 1)",
+        "OUTPUT = AddHeightMap(Craters,235135, 1136.3, null, CRT)",
+        "OUTPUT = AddHeightMap(Craters,127644, 681.8, null, CRT)",
+        "OUTPUT = AddHeightMap(Craters,7540, 35, null, CRT)",
+        "OUTPUT = AddHeightMap(Perlin,18957.8, 20)",
+        "OUTPUT = AddHeightMap(Perlin,2451.6, 5)",
+        "OUTPUT = AddHeightMap(Perlin,1319.2, 1)"
+      ],
+	  "realistic": [
+        "SEA = AddHeightMap(SEA_T1d.png, 31545230, 1)",
+        "OUTPUT = AddHeightMap(cons.txt, 31545230, 8000, null, SEA)",
+	    "DNS = AddHeightMap(T1dDns.png,31545230, 1)",
+         "OUTPUT = AddHeightMap( Dunes.png,  400, 4, null, DNS)",
+	    "MNT = AddHeightMap(T1dMnt.png,31545230, 1)",
+         "MNT1 = AddHeightMap( Io,300000, 1, null, MNT)",
+          "OUTPUT = AddHeightMap(Mountes.png,225630, 14000, null, MNT1)",
+		"CONS = AddHeightMap(cons.txt,31545230,1)",
+		 "OUTPUT = AddHeightMap(T1dCrt.png,31545230, 11363, null, CONS)",
+	    "CRT = AddHeightMap(T1dCrt.png,31545230, 1)",
+        "OUTPUT = AddHeightMap(Craters,2351353, 11363, null, CRT)",
+        "OUTPUT = AddHeightMap(Craters,1276448, 6818, null, CRT)",
+        "OUTPUT = AddHeightMap(Craters,75338, 350, null, CRT)",
+        "OUTPUT = AddHeightMap(Perlin,18957.8, 20)",
+        "OUTPUT = AddHeightMap(Perlin,2451.6, 5)",
+        "OUTPUT = AddHeightMap(Perlin,1319.2, 1)"
+      ],
+    },
+    "textureFormula": [],
+    "verticeSize": 2,
+    "collider": true,
+    "flatZones": []
+  },
+  "ORBIT_DATA": {
+    "parent": "TRAPPIST-1",
+    "semiMajorAxis": 166577229,
+    "eccentricity": 0.0084,
+    "argumentOfPeriapsis": 351.27,
+    "direction": 1,
+    "multiplierSOI": 2.5
+  },
+  "ACHIEVEMENT_DATA": {
+    "Landed": true,
+    "Takeoff": true,
+    "Atmosphere": true,
+    "Orbit": true,
+    "Crash": true
+  },
+  "LANDMARKS": [
+    {
+      "name": "Cold Tidal Side",
+      "angle": 170,
+      "startAngle": -77.87,
+      "endAngle": -272.99
+    },
+    {
+      "name": "Dry Tidal Side",
+      "angle": -10,
+      "startAngle": 297.6,
+      "endAngle": 436.64
+    }]
+}

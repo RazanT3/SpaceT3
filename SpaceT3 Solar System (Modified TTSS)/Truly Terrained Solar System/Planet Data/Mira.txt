@@ -1,0 +1,174 @@
+{
+  "version": "1.5",
+  "BASE_DATA": {
+    "radius": 12192226462,
+    "gravity": 0.0026376,
+    "timewarpHeight": 2000000000,
+    "mapColor": {
+      "r": 1,
+      "g": 0.36,
+      "b": 0.26,
+      "a": 1
+    }
+  },
+  "ATMOSPHERE_PHYSICS_DATA": {
+    "height": 118961992000,
+    "heightDifficultyScale": {"hard": 2, "realistic": 20},
+    "density": 0.000005,
+    "curve": 13,
+    "curveScale": {},
+    "parachuteMultiplier": 1,
+    "upperAtmosphere": 0.5,
+    "shockwaveIntensity": 0.5,
+    "minHeatingVelocityMultiplier": 1
+  },
+  "ATMOSPHERE_VISUALS_DATA": {
+    "GRADIENT": {
+      "positionZ": -400000,
+      "height": 148592000000,
+      "texture": "Atmo_RedStar1"
+    },
+    "CLOUDS": {
+      "texture": "None",
+      "startHeight": 0,
+      "width": 0,
+      "height": 0,
+      "alpha": 0,
+      "velocity": 0
+    },
+ "FOG": {
+      "keys": []
+    }
+  },
+  "TERRAIN_DATA": {
+    "TERRAIN_TEXTURE_DATA": {
+      "planetTexture": "RedStar1",
+      "planetTextureCutout": 1,
+      "surfaceTexture_A": "Ice",
+      "surfaceTextureSize_A": {
+        "x": -1,
+        "y": -1
+      },
+      "surfaceTexture_B": "Ice",
+      "surfaceTextureSize_B": {
+        "x": -1,
+        "y": -1
+      },
+      "terrainTexture_C": "Ice",
+      "terrainTextureSize_C": {
+        "x": -1,
+        "y": -1
+      },
+      "surfaceLayerSize": 50,
+      "minFade": 0,
+      "maxFade": 0,
+      "shadowIntensity": 0,
+      "shadowHeight": 0
+    },
+    "terrainFormulaDifficulties": {
+	    "normal": [
+         "OUTPUT = AddHeightMap(Mountes.png, 76606018167, 2000000000)"
+      ]},
+    "textureFormula": [],
+    "verticeSize": 13,
+    "collider": false,
+    "flatZones": []
+  },
+    "POST_PROCESSING": {
+    "keys": [
+	    {
+        "height": 109046136000,
+        "shadowIntensity": -1,
+        "starIntensity": 0.05,
+        "hueShift": 0,
+        "saturation": 0.8,
+        "contrast": 3,
+        "red": 1.8,
+        "green": 1.6,
+        "blue": 1.25
+        },
+	    {
+        "height": 163569204000,
+        "shadowIntensity": -0.3,
+        "starIntensity": 0.1,
+        "hueShift": 0,
+        "saturation": 0.9,
+        "contrast": 2,
+        "red": 2.6,
+        "green": 1.761,
+        "blue": 1.56
+        },
+	    {
+        "height": 218092272000,
+        "shadowIntensity": 0.6,
+        "starIntensity": 0.2,
+        "hueShift": 0,
+        "saturation": 0.9,
+        "contrast": 1.7,
+        "red": 2.48,
+        "green": 1.915,
+        "blue": 1.71
+        },
+	    {
+        "height": 436184544000,
+        "shadowIntensity": 1.15,
+        "starIntensity": 0.4,
+        "hueShift": 0,
+        "saturation": 1,
+        "contrast": 1.25,
+        "red": 1.89,
+        "green": 1.515,
+        "blue": 1.51
+        },
+	    {
+        "height": 654276817000,
+        "shadowIntensity": 1.35,
+        "starIntensity": 0.6,
+        "hueShift": 0,
+        "saturation": 1,
+        "contrast": 1.2,
+        "red": 1,
+        "green": 1,
+        "blue": 1
+      },
+      {
+        "height": 872369089000,
+        "shadowIntensity": 1.55,
+        "starIntensity": 0.8,
+        "hueShift": 0,
+        "saturation": 1,
+        "contrast": 1.2,
+        "red": 1,
+        "green": 1,
+        "blue": 1
+      },
+	   {
+		"height":1090461360000,
+		"shadowIntensity":1.75,
+		"starIntensity":1,
+		"hueShift":0,
+		"saturation":0.95,
+		"contrast":1.2,
+		"red":1,
+		"green":1,
+		"blue":1
+	   }
+    ]
+  },
+  "ORBIT_DATA": {
+    "parent": "Sun",
+    "semiMajorAxis": 141499415313154735,
+    "eccentricity": 0,
+    "argumentOfPeriapsis": 34.8366,
+    "direction": 0,
+    "multiplierSOI": 0.25
+  },
+  "ACHIEVEMENT_DATA": {
+    "Landed": false,
+    "Takeoff": false,
+    "Atmosphere": false,
+    "Orbit": true,
+    "Crash": false
+  },
+  "LANDMARKS": []
+}

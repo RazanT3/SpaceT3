@@ -1,0 +1,140 @@
+{
+  "version": "1.5",
+  "BASE_DATA": {
+    "radius": 39420,
+    "gravity": 0.38,
+    "timewarpHeight": 3500,
+    "mapColor": {
+      "r": 0.47,
+      "g": 0.388,
+      "b": 0.337,
+      "a": 1
+    }
+  },
+  "TERRAIN_DATA": {
+    "TERRAIN_TEXTURE_DATA": {
+      "planetTexture": "Titania",
+      "planetTextureCutout": 0.999,
+      "surfaceTexture_A": "Ice",
+      "surfaceTextureSize_A": {
+        "x": -70,
+        "y": -25
+      },
+      "surfaceTexture_B": "Soft_Rocks",
+      "surfaceTextureSize_B": {
+        "x": 70,
+        "y": 25
+      },
+      "terrainTexture_C": "Limestone",
+      "terrainTextureSize_C": {
+        "x": -320,
+        "y": -200
+      },
+      "surfaceLayerSize": 200,
+      "minFade": 0,
+      "maxFade": 0.6,
+      "shadowIntensity": 5,
+      "shadowHeight": 15
+    },
+    "terrainFormulaDifficulties": {
+      "normal": [
+        "OUTPUT = AddHeightMap(Craters, 24768.315, 130)",
+        "OUTPUT = AddHeightMap(Craters, 8000, 55.6)",
+        "OUTPUT = AddHeightMap(Perlin, 7811.65176357011, 12)",
+        "M = AddHeightMap(test9.txt, 247683.16, 1)",
+        "OUTPUT = AddHeightMap(cosCanyd.png, 1376, 300, null, M)",
+        "M1 = AddHeightMap(test10.png, 247683.16, 1)",
+	    "OUTPUT = AddHeightMap(cons.txt, 363688, 2000, null, M1)",
+        "OUTPUT = AddHeightMap(Craters, 360000, 2000, null, M1)",
+        "M2 = AddHeightMap(test11.png, 247683.16, 1)",
+	    "OUTPUT = AddHeightMap(cons.txt, 363688, 1000, null, M2)",
+        "OUTPUT = AddHeightMap(Craters, 191000, 1000, null, M2)"
+      ],
+      "hard": [
+        "OUTPUT = AddHeightMap(Craters, 49536.63, 260)",
+        "OUTPUT = AddHeightMap(Craters, 16000, 111.2)",
+        "OUTPUT = AddHeightMap(Perlin, 15622, 24)",
+        "M = AddHeightMap(test9.txt, 495366.3, 1)",
+        "OUTPUT = AddHeightMap(cosCanyd.png, 2752, 600, null, M)",
+        "M1 = AddHeightMap(test10.png, 495366.3, 1)",
+	    "OUTPUT = AddHeightMap(cons.txt, 727376, 4000, null, M1)",
+        "OUTPUT = AddHeightMap(Craters, 720000, 4000, null, M1)",
+        "M2 = AddHeightMap(test11.png, 495366.3, 1)",
+	    "OUTPUT = AddHeightMap(cons.txt, 727376, 2000, null, M2)",
+        "OUTPUT = AddHeightMap(Craters, 382000, 2000, null, M2)",
+        "OUTPUT = AddHeightMap(cons.txt, 495366.3, 350)"
+      ],
+      "realistic": [
+        "OUTPUT = AddHeightMap(Craters, 495366.3, 2600)",
+        "OUTPUT = AddHeightMap(Craters, 160000, 1112)",
+        "OUTPUT = AddHeightMap(Perlin, 156220, 240)",
+        "M = AddHeightMap(test9.txt, 4953663.2, 1)",
+        "OUTPUT = AddHeightMap(cosCanyd.png, 27520, 6000, null, M)",
+        "M1 = AddHeightMap(test10.png, 4953663.2, 1)",
+	    "OUTPUT = AddHeightMap(cons.txt, 7273760, 40000, null, M1)",
+        "OUTPUT = AddHeightMap(Craters, 7200000, 40000, null, M1)",
+        "M2 = AddHeightMap(test11.png, 4953663.2, 1)",
+	    "OUTPUT = AddHeightMap(cons.txt, 7273760, 20000, null, M2)",
+        "OUTPUT = AddHeightMap(Craters, 3820000, 20000, null, M2)",
+        "OUTPUT = AddHeightMap(cons.txt, 4953663.2, 3500)"
+      ]
+    },
+    "textureFormula": [],
+    "verticeSize": 0.5,
+    "collider": true,
+    "rocks": {
+      "rockType": "Rock Square",
+      "rockDensity": 1,
+      "minSize": 0.25,
+      "maxSize": 0.7,
+      "powerCurve": 20,
+      "maxAngle": 45
+    }
+  },
+  "ORBIT_DATA": {
+    "parent": "Uranus",
+    "semiMajorAxis": 17452000,
+    "smaDifficultyScale": {
+      "normal": 1,
+      "hard": 2.5,
+      "realistic": 25
+    },
+    "eccentricity": 0,
+    "argumentOfPeriapsis": 0,
+    "direction": 1,
+    "multiplierSOI": 3
+  },
+  "ACHIEVEMENT_DATA": {
+    "Landed": true,
+    "Takeoff": true,
+    "Atmosphere": false,
+    "Orbit": true,
+    "Crash": true
+  },
+  "LANDMARKS": [
+  {
+      "name": "Messina Chasma",
+      "angle": 327,
+      "startAngle": 323,
+      "endAngle": 331
+    },
+	{
+      "name": "Gertrude Crater",
+      "angle": 56,
+      "startAngle": 47,
+      "endAngle": 65
+    },
+	{
+      "name": "Belmont Chasma",
+      "angle": 274,
+      "startAngle": 273,
+      "endAngle": 275
+    },
+	{
+      "name": "Lucetta Crater",
+      "angle": 68,
+      "startAngle": 67,
+      "endAngle": 69
+    }
+	]
+}
