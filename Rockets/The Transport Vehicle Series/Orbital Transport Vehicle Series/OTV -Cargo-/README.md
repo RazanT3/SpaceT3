@@ -3,9 +3,9 @@ Vanilla B1 - https://sharing.spaceflightsimulator.app/rocket/UGcuwcd4Ee-LAdPseAe
 
 Modded B1 - https://sharing.spaceflightsimulator.app/rocket/YlxINsd4Ee-LAdPseAeipw
 
-Vanilla B2 - https://sharing.spaceflightsimulator.app/rocket/zqdXdvnfEe-LbdPseAeipw
+Vanilla B2 - https://sharing.spaceflightsimulator.app/rocket/on2S5P_WEe-LedPseAeipw
 
-Modded B2 - https://sharing.spaceflightsimulator.app/rocket/wwXH1vnfEe-LbdPseAeipw
+Modded B2 - https://sharing.spaceflightsimulator.app/rocket/DYlz0__XEe-LedPseAeipw
 
 # Orbital Transport Vehicle Block 1 & 2 -Cargo- `Active`
 
