@@ -1,0 +1,861 @@
+{
+  "center": 10.0,
+  "parts": [
+    {
+      "n": "Fairing",
+      "p": {
+        "x": 10.5750008,
+        "y": 0.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.425,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 0.60000002384185791,
+        "width_a": 0.60000002384185791,
+        "width_b": 0.60000002384185791,
+        "height": 0.30000001192092896,
+        "force_percent": 1.0
+      },
+      "B": {
+        "occupied_a": false,
+        "detach_edge": false,
+        "adapt_to_tank": false
+      },
+      "T": {
+        "fragment": "left",
+        "color_tex": "Color_Black",
+        "shape_tex": ""
+      }
+    },
+    {
+      "n": "Fairing",
+      "p": {
+        "x": 10.0,
+        "y": 1.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.6,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 0.60000002384185791,
+        "width_a": 0.60000002384185791,
+        "width_b": 0.60000002384185791,
+        "height": 0.30000001192092896,
+        "force_percent": 1.0
+      },
+      "B": {
+        "occupied_a": true,
+        "detach_edge": false,
+        "adapt_to_tank": false
+      },
+      "T": {
+        "fragment": "left",
+        "color_tex": "Color_Black",
+        "shape_tex": ""
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 10.6699982,
+        "y": 0.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": -1.0,
+        "z": 180.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 0.090000003576278687,
+        "width_a": 0.090000003576278687,
+        "width_b": 0.090000003576278687,
+        "height": 0.25,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Color_White",
+        "shape_tex": "Edges Faces"
+      },
+      "burns": {
+        "angle": -90.58417,
+        "intensity": 3.0,
+        "x": -0.0509633645,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Fairing",
+      "p": {
+        "x": 10.7280006,
+        "y": 0.800003052
+      },
+      "o": {
+        "x": 0.45,
+        "y": -0.125,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 0.5,
+        "width_a": 0.5,
+        "width_b": 0.5,
+        "height": 0.34999999403953552,
+        "force_percent": 0.0
+      },
+      "B": {
+        "occupied_a": true,
+        "detach_edge": false,
+        "adapt_to_tank": false
+      },
+      "T": {
+        "fragment": "both",
+        "color_tex": "Color_White",
+        "shape_tex": "Flat Smooth 4"
+      },
+      "burns": {
+        "angle": -90.0,
+        "intensity": 3.0,
+        "x": 0.0,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 10.5250015,
+        "y": 0.75
+      },
+      "o": {
+        "x": 1.0,
+        "y": -0.7,
+        "z": 7.62939453E-06
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 0.40000000596046448,
+        "force_multiplier": 0.0,
+        "sep_force_multiplier": 0.0
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      },
+      "burns": {
+        "angle": -90.58417,
+        "intensity": 3.0,
+        "x": -0.0509633645,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 10.5250015,
+        "y": 0.75
+      },
+      "o": {
+        "x": 1.0,
+        "y": 0.5,
+        "z": 7.62939453E-06
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 0.40000000596046448,
+        "force_multiplier": 0.0,
+        "sep_force_multiplier": 0.0
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      },
+      "burns": {
+        "angle": -90.58417,
+        "intensity": 3.0,
+        "x": -0.0509633645,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 10.75,
+        "y": 0.5
+      },
+      "o": {
+        "x": 1.4,
+        "y": -0.085,
+        "z": 180.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 0.15000000596046448
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      },
+      "burns": {
+        "angle": -90.0,
+        "intensity": 3.0,
+        "x": 0.0,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 10.8300018,
+        "y": 0.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 180.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 0.090000003576278687,
+        "width_a": 0.090000003576278687,
+        "width_b": 0.090000003576278687,
+        "height": 0.25,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Color_White",
+        "shape_tex": "Edges Faces"
+      },
+      "burns": {
+        "angle": -90.58417,
+        "intensity": 3.0,
+        "x": -0.0509633645,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 10.8300018,
+        "y": 0.705001831
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 0.090000003576278687,
+        "width_a": 0.090000003576278687,
+        "width_b": 0.090000003576278687,
+        "height": 0.15999999642372131,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Color_White",
+        "shape_tex": "Edges Faces"
+      },
+      "burns": {
+        "angle": -90.58417,
+        "intensity": 3.0,
+        "x": -0.0509633645,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 11.0750008,
+        "y": 0.300003052
+      },
+      "o": {
+        "x": -0.5,
+        "y": 0.2,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 0.40000000596046448,
+        "force_multiplier": 0.0,
+        "sep_force_multiplier": 0.0
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      },
+      "burns": {
+        "angle": -90.58417,
+        "intensity": 3.0,
+        "x": -0.0509633645,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Cone Side",
+      "p": {
+        "x": 11.0600014,
+        "y": 0.199996948
+      },
+      "o": {
+        "x": -0.064,
+        "y": -0.05,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 2.0
+      },
+      "T": {
+        "color_tex": "Color_Black",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 10.75,
+        "y": 0.870002747
+      },
+      "o": {
+        "x": 1.5,
+        "y": -0.185,
+        "z": 180.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 0.0
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      },
+      "burns": {
+        "angle": -90.0,
+        "intensity": 3.0,
+        "x": 0.0,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 11.0749969,
+        "y": 0.949996948
+      },
+      "o": {
+        "x": -0.4,
+        "y": -0.9,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 0.40000000596046448,
+        "force_multiplier": 0.0,
+        "sep_force_multiplier": 0.0
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      },
+      "burns": {
+        "angle": -90.58417,
+        "intensity": 3.0,
+        "x": -0.0509633645,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Side Separator",
+      "p": {
+        "x": 10.75,
+        "y": 1.06500244
+      },
+      "o": {
+        "x": 0.3,
+        "y": -0.1,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "force_percent": 0.0
+      },
+      "T": {
+        "fragment": "right"
+      },
+      "burns": {
+        "angle": -90.0,
+        "intensity": 3.0,
+        "x": 0.0,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Fairing",
+      "p": {
+        "x": 10.0,
+        "y": 1.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": -1.6,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 0.60000002384185791,
+        "width_a": 0.60000002384185791,
+        "width_b": 0.60000002384185791,
+        "height": 0.30000001192092896,
+        "force_percent": 1.0
+      },
+      "B": {
+        "occupied_a": true,
+        "detach_edge": false,
+        "adapt_to_tank": false
+      },
+      "T": {
+        "fragment": "left",
+        "color_tex": "Color_Black",
+        "shape_tex": ""
+      }
+    },
+    {
+      "n": "Fairing",
+      "p": {
+        "x": 9.424999,
+        "y": 0.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.425,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 0.60000002384185791,
+        "width_a": 0.60000002384185791,
+        "width_b": 0.60000002384185791,
+        "height": 0.30000001192092896,
+        "force_percent": 1.0
+      },
+      "B": {
+        "occupied_a": false,
+        "detach_edge": false,
+        "adapt_to_tank": false
+      },
+      "T": {
+        "fragment": "left",
+        "color_tex": "Color_Black",
+        "shape_tex": ""
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 9.474998,
+        "y": 0.75
+      },
+      "o": {
+        "x": -1.0,
+        "y": 0.5,
+        "z": 7.62939453E-06
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 0.40000000596046448,
+        "force_multiplier": 0.0,
+        "sep_force_multiplier": 0.0
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      },
+      "burns": {
+        "angle": -90.58417,
+        "intensity": 3.0,
+        "x": -0.0509633645,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Fairing",
+      "p": {
+        "x": 9.271999,
+        "y": 0.800003052
+      },
+      "o": {
+        "x": 0.45,
+        "y": 0.125,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 0.5,
+        "width_a": 0.5,
+        "width_b": 0.5,
+        "height": 0.34999999403953552,
+        "force_percent": 0.0
+      },
+      "B": {
+        "occupied_a": true,
+        "detach_edge": false,
+        "adapt_to_tank": false
+      },
+      "T": {
+        "fragment": "both",
+        "color_tex": "Color_White",
+        "shape_tex": "Flat Smooth 4"
+      },
+      "burns": {
+        "angle": -90.0,
+        "intensity": 3.0,
+        "x": 0.0,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 9.330002,
+        "y": 0.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": -1.0,
+        "z": 180.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 0.090000003576278687,
+        "width_a": 0.090000003576278687,
+        "width_b": 0.090000003576278687,
+        "height": 0.25,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Color_White",
+        "shape_tex": "Edges Faces"
+      },
+      "burns": {
+        "angle": -90.58417,
+        "intensity": 3.0,
+        "x": -0.0509633645,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 9.25,
+        "y": 0.5
+      },
+      "o": {
+        "x": -1.4,
+        "y": -0.085,
+        "z": 180.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 0.15000000596046448
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      },
+      "burns": {
+        "angle": -90.0,
+        "intensity": 3.0,
+        "x": 0.0,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 9.169998,
+        "y": 0.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": -1.0,
+        "z": 180.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 0.090000003576278687,
+        "width_a": 0.090000003576278687,
+        "width_b": 0.090000003576278687,
+        "height": 0.25,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Color_White",
+        "shape_tex": "Edges Faces"
+      },
+      "burns": {
+        "angle": -90.58417,
+        "intensity": 3.0,
+        "x": -0.0509633645,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 9.169998,
+        "y": 0.705001831
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 0.090000003576278687,
+        "width_a": 0.090000003576278687,
+        "width_b": 0.090000003576278687,
+        "height": 0.15999999642372131,
+        "fuel_percent": 1.0
+      },
+      "T": {
+        "color_tex": "Color_White",
+        "shape_tex": "Edges Faces"
+      },
+      "burns": {
+        "angle": -90.58417,
+        "intensity": 3.0,
+        "x": -0.0509633645,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 8.924999,
+        "y": 0.300003052
+      },
+      "o": {
+        "x": 0.5,
+        "y": 0.2,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 0.40000000596046448,
+        "force_multiplier": 0.0,
+        "sep_force_multiplier": 0.0
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      },
+      "burns": {
+        "angle": -90.58417,
+        "intensity": 3.0,
+        "x": -0.0509633645,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Cone Side",
+      "p": {
+        "x": 8.939999,
+        "y": 0.199996948
+      },
+      "o": {
+        "x": 0.064,
+        "y": -0.05,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "size": 2.0
+      },
+      "T": {
+        "color_tex": "Color_Black",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 9.474998,
+        "y": 0.75
+      },
+      "o": {
+        "x": -1.0,
+        "y": -0.7,
+        "z": 7.62939453E-06
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 0.40000000596046448,
+        "force_multiplier": 0.0,
+        "sep_force_multiplier": 0.0
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      },
+      "burns": {
+        "angle": -90.58417,
+        "intensity": 3.0,
+        "x": -0.0509633645,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Probe",
+      "p": {
+        "x": 9.25,
+        "y": 0.870002747
+      },
+      "o": {
+        "x": -1.5,
+        "y": -0.185,
+        "z": 180.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 0.0
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      },
+      "burns": {
+        "angle": -90.0,
+        "intensity": 3.0,
+        "x": 0.0,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Side Separator",
+      "p": {
+        "x": 9.25,
+        "y": 1.06500244
+      },
+      "o": {
+        "x": 0.3,
+        "y": 0.1,
+        "z": 270.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "force_percent": 0.0
+      },
+      "T": {
+        "fragment": "right"
+      },
+      "burns": {
+        "angle": -90.0,
+        "intensity": 3.0,
+        "x": 0.0,
+        "top": "",
+        "bottom": ""
+      }
+    },
+    {
+      "n": "Docking Port",
+      "p": {
+        "x": 8.925003,
+        "y": 0.949996948
+      },
+      "o": {
+        "x": -0.4,
+        "y": 0.9,
+        "z": 90.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 0.40000000596046448,
+        "force_multiplier": 0.0,
+        "sep_force_multiplier": 0.0
+      },
+      "B": {
+        "disable_vanilla_shading": false
+      },
+      "T": {
+        "color_tex": "",
+        "shape_tex": ""
+      },
+      "burns": {
+        "angle": -90.58417,
+        "intensity": 3.0,
+        "x": -0.0509633645,
+        "top": "",
+        "bottom": ""
+      }
+    }
+  ],
+  "stages": [],
+  "rotation": 0.0,
+  "offset": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "interiorView": false,
+  "customData": {}
+}
